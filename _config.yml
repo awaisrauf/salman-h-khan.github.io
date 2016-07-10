@@ -2,9 +2,6 @@ title:
 description:      My academic webpage.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://salman-h-khan.github.io
-#http://localhost:5000
-#http://jponttuset.github.io
-disqus_shortname: jponttuset
 
 # Owner/author information
 owner:
@@ -18,6 +15,7 @@ owner:
   google_scholar: M59O9lkAAAAJ
   #google_plus: 113718226018314522413
   #github: jponttuset
+  
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-52736040-1
 google_verify:
@@ -39,7 +37,7 @@ links:
     url: /blog/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Zurich
+timezone:    Australia/ACT
 future:      true
 #pygments:    true
 highlighter: rouge
