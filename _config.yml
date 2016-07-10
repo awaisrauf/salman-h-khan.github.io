@@ -1,23 +1,23 @@
-title:            Jordi Pont-Tuset's site
-description:      Welcome to my site.
+title:            
+description:      My academic webpage.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://jponttuset.github.io
+url:              http://salman-h-khan.github.io
 #http://localhost:5000
 #http://jponttuset.github.io
 disqus_shortname: jponttuset
 
 # Owner/author information
 owner:
-  name:           Jordi Pont-Tuset
-  avatar:         jordi.png
-  bio:            I'm from a small town near Girona, Catalunya. Currently in Zürich, Switzerland. Passionate about computer vision, technology, running, and mountains.
-  email:          jponttuset@gmail.com
+  name:           Salman Khan
+  avatar:         favicon-salman.png
+  bio:            I'm a research scientist at Data61 (CSIRO) and a honorary lecturer at ANU.
+  email:          salman.khan@data61.csiro.au
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: jponttuset
   linkedin: jponttuset
-  google_scholar: VCBBx24AAAAJ
-  google_plus: 113718226018314522413
-  github: jponttuset
+  google_scholar: M59O9lkAAAAJ
+  #google_plus: 113718226018314522413
+  #github: jponttuset
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-52736040-1
 google_verify:
