@@ -25,8 +25,8 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Home
-    url: /
+  #- title: Home
+  #  url: /
   - title: Curriculum
     url: /cv/
   - title: Publications
