@@ -9,12 +9,12 @@ disqus_shortname: jponttuset
 # Owner/author information
 owner:
   name:           Salman Khan
-  avatar:         favicon-salman.PNG
+  avatar:         favicon-salman.png
   bio:            I'm a research scientist at Data61 (CSIRO) and a honorary lecturer at ANU.
   email:          salman.khan@data61.csiro.au
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: jponttuset
-  linkedin: jponttuset
+  #twitter: jponttuset
+  linkedin: salmaneme
   google_scholar: M59O9lkAAAAJ
   #google_plus: 113718226018314522413
   #github: jponttuset
