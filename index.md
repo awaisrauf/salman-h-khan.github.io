@@ -7,7 +7,7 @@ image:
   feature: mountain.jpg
 ---
 I am a Research Scientist at the Computer Vision Research Group (CVRG) at Data61, CSIRO (Commonwealth Scientific and Industrial Research Organization). I am also an Adjunct Lecturer at College of Electrical & Computer Science (CECS), Australian National University (ANU). 
-
+<br />
 Previosuly, I completed my PhD in Computer Vision from The University of Western Australia (UWA), under the supervision of W/Prof. Mohammed Bennamoun. I also completed an internship at NICTA in 2015. 
 
 # News!
@@ -17,8 +17,6 @@ Previosuly, I completed my PhD in Computer Vision from The University of Western
 * My paper on semantic labeling of indoor scenes has now been accepted by IJCV, Springer. [Oct'15]
 * One paper accepted in ICCV 2015, Santiago, Chile. [Aug'15]
 * My cuboid detection paper will appear in IEEE CVPR 2015, Boston. [Jun'15]
-
-<br />
 
 # Contact Details:  
 
