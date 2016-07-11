@@ -8,8 +8,7 @@ image:
 ---
 I am a Research Scientist at the Computer Vision Research Group (CVRG) at Data61, CSIRO (Commonwealth Scientific and Industrial Research Organization). I am also an Adjunct Lecturer at College of Electrical & Computer Science (CECS), Australian National University (ANU). 
 
-
-Previosuly, I completed my PhD in Computer Vision from The University of Western Australia (UWA, under the supervision of W/Prof. Mohammed Bennamoun. I also completed an internship at NICTA in 2015. 
+Previosuly, I completed my PhD in Computer Vision from The University of Western Australia (UWA), under the supervision of W/Prof. Mohammed Bennamoun. I also completed an internship at NICTA in 2015. 
 
 # News!
 
