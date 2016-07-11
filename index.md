@@ -14,3 +14,5 @@ image:
 * My cuboid detection paper will appear in IEEE CVPR 2015, Boston. [Jun'15]
 
 <br />
+title: Contact
+sjlajk
