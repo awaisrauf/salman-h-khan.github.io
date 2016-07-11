@@ -1,11 +1,14 @@
 ---
 layout: home2
-title: News!
+title: 
 description: "Salman Khan's website"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: mountain.jpg
 ---
+I am a Research Scientist at the Computer Vision Research Group (CVRG) at Data61, CSIRO (Commonwealth Scientific and Industrial Research Organization). I am also an Adjunct Lecturer at College of Electrical & Computer Science (CECS), Australian National University (ANU).
+
+# News!
 
 * Two papers on scene classification accepted for publication in IEEE TIP. [Jul'16]
 * My paper on shadow detection and removal has now been accepted by IEEE TPAMI. [Nov'15]
