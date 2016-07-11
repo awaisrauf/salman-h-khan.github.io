@@ -14,5 +14,9 @@ image:
 * My cuboid detection paper will appear in IEEE CVPR 2015, Boston. [Jun'15]
 
 <br />
-title: Contact
-sjlajk
+# Contact Details:
+**Adress:** 
+7 London Circuit, Tower A, Level 1 (L1-37)  
+Canberra, ACT 2601, Australia  
+Phone: +61 2 6218 3708
+
