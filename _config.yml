@@ -28,13 +28,13 @@ links:
   #- title: Home
   #  url: /
   - title: Research
-    url: /research/
+    url: /research_/
   - title: Publications
-    url: /publications/
+    url: /publications_/
   - title: For Students
-    url: /students/
+    url: /students_/
   - title: CV
-    url: /cv/
+    url: /cv_/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Australia/ACT
