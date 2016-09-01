@@ -31,10 +31,10 @@ links:
     url: /research/
   - title: Publications
     url: /publications/
-  - title: For Students
-    url: /students_/
-  - title: CV
-    url: /cv_/
+  #- title: For Students
+  #  url: /students_/
+  #- title: CV
+  #  url: /cv_/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Australia/ACT
