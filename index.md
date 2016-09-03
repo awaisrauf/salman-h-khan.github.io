@@ -6,9 +6,11 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: picture.jpg
 ---
-I am a Research Scientist at the Computer Vision Research Group (CVRG) at [Data61](http://www.data61.csiro.au/), CSIRO (Commonwealth Scientific and Industrial Research Organization). I am also an Adjunct Lecturer at College of Electrical & Computer Science (CECS), Australian National University (ANU). &nbsp;
+I am a Research Scientist at the Computer Vision Research Group (CVRG) at [Data61](http://www.data61.csiro.au/), [CSIRO](http://www.csiro.au/) (Commonwealth Scientific and Industrial Research Organization). I am also an Adjunct Lecturer at [College of Electrical & Computer Science](https://cecs.anu.edu.au/) (CECS), [Australian National University](www.anu.edu.au/) (ANU). 
 
-Previosuly, I completed my PhD in Computer Vision from The University of Western Australia (UWA), under the supervision of W/Prof. Mohammed Bennamoun. I also completed an internship at NICTA (National ICT Australia) in 2015. 
+\&nbsp;
+
+Previosuly, I completed my PhD in Computer Vision from [The University of Western Australia](www.uwa.edu.au/) (UWA), under the supervision of [W/Prof. Mohammed Bennamoun](http://staffhome.ecm.uwa.edu.au/~00051632/). I also completed an internship at [NICTA](https://en.wikipedia.org/wiki/NICTA) (National ICT Australia) in 2015. 
 
 # News!
 
