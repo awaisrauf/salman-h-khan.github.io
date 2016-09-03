@@ -89,7 +89,19 @@ div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;
 <h4 style="margin-bottom:0px;padding-top:10px;">Change Detection</h4>
 <table class="imgtable"><tr><td>
 <a href="../images/ChangeDetection.JPG"><img src="../images/ChangeDetection.JPG" alt="alt text" width="150px" height="120px" /></a>&nbsp;</td>
-<td align="left"><p>Brief Description. </p>
+<td align="left">
+	<p> This project relates to the automatic detection of changes in visual imagery. <i>First</i>, we address the problem of weakly 
+	supervised change detection in a pair of color images. Our approach requires  only  image-level labels to simultaneously detect 
+	and localize changes. To this end, we employ a deep neural network with DAG topology to learn patterns 
+	of change from image-level labeled training data. On top of the initial CNN activations, we define a CRF 
+	model to incorporate the local differences and the dense connections between individual pixels. We apply 
+	a constrained mean-field algorithm to estimate the pixel-level labels, and use the estimated labels to 
+	update the parameters of the CNN in an iterative EM framework. <i>Second</i>, we address the forest change detection problem 
+	in satellite imagery. Our proposed approach is capable of performing change analysis at a much finer temporal resolution and 
+	automatically learns strong features from the raw surface reflectance data. To achieve a finer temporal resolution, we perform 
+	data inpainting using the reliable data values and sparse coding. For change detection, our approach works on the object-level by identifying 
+	a candidate set of change regions using multi-resolution area profiles.  We use both spatial and temporal contextual 
+	information in the deep CNN model which helps in making better  predictions. </p>
 </td></tr></table>
 <ul>
 <li><p>
