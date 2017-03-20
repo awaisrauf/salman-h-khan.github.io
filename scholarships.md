@@ -7,7 +7,7 @@ modified: 14-3-2017
 comments: false
 ---
 
-If you are an excellent student and interested to undertake a research based degree at ANU focussed in Computer Vision, Machine Learning, Pattern Recognition and/or Image Processing, please drop me an email with your CV and a brief research proposal. We can then discuss potential research topics and scholarships available to you. Below, I summarize the scholarships for which you may be eligible. 
+If you are an excellent student and interested to undertake a research based degree at ANU focussed in Computer Vision, Machine Learning, Pattern Recognition and/or Image Processing, please drop me an email with your CV and a brief research proposal. We can then discuss potential research projects and scholarships available to you. Below, I summarize the scholarships for which you may be eligible. <br><br>
 
 **Data61 Scholarships**
 
