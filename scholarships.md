@@ -1,5 +1,5 @@
 ---
-layout: scholarships
+layout: publications
 permalink: /scholarships/
 title: Scholarships
 tags: [scholarships]
