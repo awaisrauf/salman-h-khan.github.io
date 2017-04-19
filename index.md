@@ -21,8 +21,8 @@ Previosuly, I completed my PhD in Computer Vision from [The University of Wester
 [//]: # * One paper accepted in ICCV 2015, Santiago, Chile. [Aug'15]
 [//]: # * My cuboid detection paper will appear in IEEE CVPR 2015, Boston. [Jun'15]
 
-# Contact Details:  
+[//]: # # Contact Details:  
 
-7 London Circuit, Tower A, Level 1 (L1-37)  
-Canberra, ACT 2601, Australia  
-Phone: +61 2 6218 3708
+[//]: # 7 London Circuit, Tower A, Level 1 (L1-37)  
+[//]: # Canberra, ACT 2601, Australia  
+[//]: # Phone: +61 2 6218 3708
