@@ -12,6 +12,7 @@ Previosuly, I completed my PhD in Computer Vision from [The University of Wester
 
 # News!
 
+* My paper on change detection has been accepted by IEEE TGRS. [May'17]
 * One paper accepted in IJCAI 2017, Melbourne, Australia. [Apr'17]
 * One paper accepted in CVPR 2017, Hawaii, USA. [Mar'17]
 * Our paper on image-set classification has been accepted by IJCV, Springer [Feb'17]
