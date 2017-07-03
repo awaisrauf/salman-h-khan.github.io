@@ -23,6 +23,8 @@ A number of scholarships are available at ANU. You can find more details on the 
 * [Pre-applicaiton guidelines and formal application process](https://cecs.anu.edu.au/study/graduate-research#5)
 * [Scholarships at ANU](http://www.anu.edu.au/students/scholarships-support/anu-phd-scholarships) (check [this link](http://www.anu.edu.au/students/scholarships-support/anu-university-research-scholarships) as well)  
 
+You will be required to fulfill English language requirements at ANU (details available [here](https://policies.anu.edu.au/ppl/document/ANUP_000408).
+
 If you are an international student, you may be eligible for other scholarships such as the following:
 * [Endeavour Awards](https://internationaleducation.gov.au/endeavour%20program/scholarships-and-fellowships/international-applicants/pages/international-applicants.aspx)
 * [Australian Awards](http://australiaawards.gov.au/Pages/default.aspx)
