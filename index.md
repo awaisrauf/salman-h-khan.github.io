@@ -13,7 +13,7 @@ Previosuly, I completed my PhD in Computer Vision from [The University of Wester
 # News!
 
 * One paper accepted in ICCV 2017, Venice, Italy. [Jul'17]
-* Our paper on cost-sensitive deep learning has been accepted by IEEE TNNLS. [Jul'17]
+* Our paper on cost-sensitive deep learning will appear in IEEE TNNLS. [Jul'17]
 * My paper on change detection has been accepted by IEEE TGRS. [May'17]
 * One paper accepted in IJCAI 2017, Melbourne, Australia. [Apr'17]
 * One paper accepted in CVPR 2017, Hawaii, USA. [Mar'17]
