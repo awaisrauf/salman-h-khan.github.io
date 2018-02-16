@@ -13,6 +13,7 @@ Previosuly, I completed my PhD in Computer Vision from [The University of Wester
 
 # News!
 
+* Our book titled `A Guide to CNNs for Computer Vision' has been published by Morgan & Claypool. [Feb'18]
 * One paper accepted in WACV 2018, Nevada, USA. [Feb'18]
 * One paper accepted in ICCV 2017, Venice, Italy. [Jul'17]
 * Our paper on cost-sensitive deep learning will appear in IEEE TNNLS. [Jul'17]
