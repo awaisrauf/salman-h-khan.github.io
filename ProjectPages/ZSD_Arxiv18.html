@@ -111,7 +111,7 @@
 <html>
   <head>
 		<title>Zero-shot Object Detection</title>
-		<meta property="og:image" content="http://salman-h-khan.github.io/images/Fig1_ZSD_P.JPG"/>
+		<meta property="og:image" content="https://salman-h-khan.github.io/images/Fig1_ZSD_P.JPG"/>
 		<meta property="og:title" content="Zero-shot Object Detection" />
   </head>
 
@@ -120,69 +120,86 @@
          <center><span style="font-size:42px">Zero-Shot Object Detection: Learning to <br> Simultaneously Recognize and Localize Novel
           Concepts </span> <br><br> 
           <table align=center width=900px>
-	  			<tr>
-				<td align=center width=100px>
-				<center><span style="font-size:20px"><a href="https://sites.google.com/site/rshafin/home">Shafin Rahman</a></span></center>
-				</td>
+	<tr>
+	<td align=center width=100px>
+	<center><span style="font-size:20px"><a href="https://sites.google.com/site/rshafin/home">Shafin Rahman</a></span></center>
+	</td>
         
-				<td align=center width=100px>
-				<center><span style="font-size:20px"><a href="http://salman-h-khan.github.io/">Salman Khan</a></span></center>
-				</td>
+	<td align=center width=100px>
+	<center><span style="font-size:20px"><a href="http://salman-h-khan.github.io/">Salman Khan</a></span></center>
+	</td>
 				
         <td align=center width=100px>
-		    <center><span style="font-size:20px"><a href="http://www.porikli.com/">Fatih Porikli</a></span></center></td>
-			
-			  </table>
-				<br>
+	<center><span style="font-size:20px"><a href="http://www.porikli.com/">Fatih Porikli</a></span></center></td>	
+	</table>
+	<br>
 
-	  		  <table align=center width=500px>
-	  			  <tr>
-	  	              <td align=center width=150px>
-	  					<center>
-	  						<span style="font-size:20px"><a href='https://github.com/shubhtuls/volumetricPrimitives'> [GitHub]</a></span>
-		  		  		</center>
-		  		  	  </td>
-	  	              <td align=center width=150px>
-	  					<center>
-	  						<span style="font-size:20px"><a href='https://arxiv.org/abs/1612.00404'> [Paper]</a></span>
-		  		  		</center>
-		  		  	  </td>
-			  </table>
+	 <table align=center width=500px>
+	 <tr><td align=center width=150px>
+	 <center><span style="font-size:20px"><a href='https://github.com/salman-h-khan/ZSD_Release'> [GitHub]</a></span>
+	 </center></td>
+	 
+         <td align=center width=150px>
+	 <center><span style="font-size:20px"><a href='https://arxiv.org/abs/1803.06049'> [Paper + Supplementary Material]</a></span>
+	 </center></td>
+	  </table>
           </center>
 
-<!--   		  <br><br>
-		  <hr> -->
+<!-- <br><br> ------------------------------------------------------------------------------<hr> -->
 
   		  <br>
   		  <table align=center width=850px>
   			  <tr>
   	              <td width=500px>
-  					<center>
-  	                	<a href="./resources/images/teaser.png"><img src = "./resources/images/teaser.png" height="300px"></img></href></a><br>
-					</center>
-  	              </td>
+  			<center><a href="https://salman-h-khan.github.io/images/Fig1_ZSD_P.JPG"><img src = "https://salman-h-khan.github.io/images/Fig1_ZSD_P.JPG" height="300px"></img></href></a><br>
+			</center> </td>
                 </tr>
   	              <td width=400px>
-  					<center>
-  	                	<span style="font-size:14px"><i>Examples of chair and animal shapes assembled by composing simple volumetric primitives (cuboids). The obtained reconstructions allow an interpretable representation for each object as well as provides a consistent parsing across shapes e.g. chair seats are captured by the same primitive across the category.</i>
-					</center>
+  		<center> 
+		<span style="font-size:14px"><i>Zero-shot detection deals with a more complex label space (object labels and locations) with
+                  	considerably less supervision (i.e., no examples of unseen classes). (a) Traditional recognition
+			task only predicts seen class labels. (b) Traditional detection task predicts both
+			seen class labels and bounding boxes. (c) Traditional zero-shot recognition task only
+			predicts unseen class labels. (d) The proposed ZSD predicts both seen and unseen
+			classes and their bounding boxes.</i>
+		</center>
   	              </td>
 
   		  </table>
 
       	  <br>
+	<!-- Abstract or short description -->
 		  <hr>
-			We present a learning framework for abstracting complex shapes by learning to assemble objects using 3D volumetric primitives. In addition to generating simple and geometrically interpretable explanations of 3D objects, our framework also allows us to automatically discover and exploit consistent structure in the data. We demonstrate that using our method allows predicting shape representations which can be leveraged for obtaining a consistent parsing across the instances of a shape collection and constructing an interpretable shape similarity measure. We also examine applications for image-based prediction as well as shape manipulation.
-  		  <br><br>
+		  Current Zero-Shot Learning (ZSL) approaches are restricted
+		to recognition of a single dominant unseen object category in a test
+		image. We hypothesize that this setting is ill-suited for real-world applications
+		where unseen objects appear only as a part of a complex scene,
+		warranting both the ‘recognition’ and ‘localization’ of an unseen category.
+		To address this limitation, we introduce a new ‘Zero-Shot Detection’
+		(ZSD) problem setting, which aims at simultaneously recognizing
+		and locating object instances belonging to novel categories without any
+		training examples. We also propose a new experimental protocol for ZSD
+		based on the highly challenging ILSVRC dataset, adhering to practical
+		issues, e.g., the rarity of unseen objects. To the best of our knowledge,
+		this is the first end-to-end deep network for ZSD that jointly models
+		the interplay between visual and semantic domain information. To overcome
+		the noise in the automatically derived semantic descriptions, we
+		utilize the concept of meta-classes to design an original loss function
+		that achieves synergy between max-margin class separation and semantic
+		space clustering. Furthermore, we present a baseline approach extended
+		from recognition to detection setting. Our extensive experiments show
+		significant performance boost over the baseline on the imperative yet
+		difficult ZSD problem.	
+		  <br><br>
 		  <hr>
 
-	  <!-- NETWORK ARCHITECTURE, TRY THE MODEL -->
+	  <!-- Code -->
  		<center><h1>Code</h1></center>
   		  <table align=center width=1000px>
   			  <tr>
   	              <td align=center width=750px>
   					<center>
-						  <td><a href='https://github.com/shubhtuls/volumetricPrimitives'><img class="round" style="height:150" src="./resources/images/framework.png"/></a></td>
+						  <td><a href='https://github.com/salman-h-khan/ZSD_Release'><img class="round" style="height:150" src="https://salman-h-khan.github.io/images/Fig2_ZSD_P.JPG"/></a></td>
 	  		  		</center>
 	  		  	<!-- </br> -->
 			  </tr>
@@ -191,7 +208,7 @@
   		  <table align=center width=800px>
 			  <tr><center> <br>
 				<!-- <span style="font-size:28px">Code coming soon!</span></i>			  	 -->
-				<span style="font-size:28px">&nbsp;<a href='https://github.com/shubhtuls/volumetricPrimitives'>[GitHub]</a>
+				<span style="font-size:28px">&nbsp;<a href='https://github.com/salman-h-khan/ZSD_Release'>[GitHub]</a>
 
 				<span style="font-size:28px"></a></span>
 			  <br>
@@ -200,18 +217,18 @@
       	  <br>
 		  <hr>
 
-  		  <!-- <table align=center width=550px> -->
+  		  <!-- Paper -->
   		  <table align=center width=550>
 	 		<center><h1>Paper</h1></center>
   			  <tr>
   	              <!--<td width=300px align=left>-->
   	              <!-- <a href="http://arxiv.org/pdf/1603.08511.pdf"> -->
-				  <td><a href="https://arxiv.org/abs/1612.00404"><img class="layered-paper-big" style="height:175px" src="./resources/images/paper.png"/></a></td>
-				  <td><span style="font-size:14pt">Tulsiani, Su, Guibas, Efros, Malik.<br>
-						Learning Shape Abstractions by Assembling Volumetric Primitives.<br>
-				  In CVPR, 2017.<br>
-				  (hosted on <a href="https://arxiv.org/abs/1612.00404">arXiv</a>)</a>
-				  <span style="font-size:4pt"><a href="https://arxiv.org/abs/1612.00404"><br></a>
+				  <td><a href="https://arxiv.org/abs/1803.06049"><img class="layered-paper-big" style="height:175px" src="https://salman-h-khan.github.io/images/Fig4_ZSD_P.JPG"/></a></td>
+				  <td><span style="font-size:14pt">S. Rahman, S. H. Khan, F. Porikli.<br>
+						Zero-Shot Object Detection: Learning to Simultaneously Recognize and Localize Novel Concepts.<br>
+				  Arxiv, 2018.<br>
+				   [<a href="https://arxiv.org/abs/1803.06049">Link to Paper</a>]</a>
+				  <span style="font-size:4pt"><a href="https://arxiv.org/abs/1803.06049"><br></a>
 				  </span>
 				  </td>
   	              </td>
@@ -219,54 +236,31 @@
   		  </table>
 		  <br>
 
-		  <table align=center width=600px>
+		  <!-- <table align=center width=600px>
 			  <tr>
 				  <td><span style="font-size:14pt"><center>
 				  	<a href="./resources/bibtex.txt">[Bibtex]</a>
   	              </center></td>
               </tr>
-  		  </table>
+  		  </table> -->
 
 		  <hr>
 
 			<a name="applications"></a>
-			<center><h1>Applications</h1></center>
-			Our framework allows us to automatically discover descriptive, consistent and interpretable shape abstractions using a collection of 3D models and enables several applications.
+			<center><h1>Results</h1></center>
+			Our framework allows us to detect both seen and unseen object cateogries in natural images. Below we show some sample results on ILSVRC dataset where our method was able to correctly detect 'unseen' objects.
 
 			<br><br><br>
 			<table align=center width=1100px>
-				<tr>
-					<td width=300px>
-						<center> <span align="top" style="font-size:20px">Unsupervised Correspondence</a></span><br> </center>
-					</td>
-					<td width=300px>
-						<center> <span align="top" style="font-size:20px">Interpretable Shape Similarity</a></span><br> </center>
-					</td>
-					<td width=300px>
-						<center> <span align="top" style="font-size:20px">Shape Manipulation</a></span><br> </center>
-					</td>
-				</tr>
-				<tr height="300px">
-								<td valign="top" width=300px>
+				<tr height="1000px">
+					<td valign="top" width=300px>
 					<center>
-										<a href="./resources/images/parsing.png"><img img src = "./resources/images/parsing.png" height = "150px"></a><br>
-					<span style="font-size:14px">Unsupervised parsing obtained by assigning each mesh point to the closest primitive. We see that similar parts e.g. aeroplane wings, chair seat, etc. are consistently parsed.</span><br>
+					<a href="./resources/images/parsing.png"><img img src = "./resources/images/parsing.png" height = "150px"></a><br>
+					<span style="font-size:14px">All of the detected classes were not seen by the model during training.</span><br>
 					</center>
-								</td>
-								<td  valign="top" width=300px>
-					<center>
-						<a href="./resources/images/embedding.png"><img img src = "./resources/images/embeddingSq.png" height = "250px"></a><br>
-	<span style="font-size:14px">Embeddings obtained using various similarity measures - a) Voxel IoU b) Ours (all primitives) c) Ours (seat and back primitives) d) Ours (back primitive orientation). </span><br>
-					</center>
-								</td>
-								<td  valign="top" width=250px>
-					<center>
-						<a href="./resources/images/manipulation.png"><img img src = "./resources/images/manipulation.png" height = "120px"></a><br>
-	<span style="font-size:14px">Deformation of the source mesh (top) to have a shape similar to the target mesh (bottom) by using the inferred primitive representation.</span><br>
-					</center>
-								</td>
+					</td>
 
-							</tr>
+				</tr>
 			</table>
 
 		<br><br>
@@ -275,9 +269,21 @@
   			  <tr>
   	              <td width=400px>
   					<left>
-	  		  <center><h1>Acknowledgements</h1></center>
-	  		  We thank Saurabh Gupta and David Fouhey for insightful discussions. This work was supported in part by Intel/NSF Visual and Experiential Computing award IIS-1539099, NSF Award IIS-1212798, and the Berkeley Fellowship  to ST. We gratefully acknowledge NVIDIA corporation for the donation of Tesla GPUs used for this research. This webpage template was borrowed from some <a href="https://richzhang.github.io/colorization/">colorful folks</a>.
-
+	  		  <center><h1>Citation</h1></center>
+	  		  
+			S. Rahman, S. H. Khan and F. Porikli, 
+			“Zero-Shot Object Detection: Learning to Simultaneously Recognize and Localize Novel Concepts,”
+			arXiv preprint arXiv:1803.06049, 2018. 	
+			
+						
+			<font face="Courier New">			
+			@article{rahman2018zeroshot, <br>
+ 			 title={Zero-Shot Object Detection: Learning to Simultaneously Recognize and Localize Novel Concepts}, <br>
+  			author={Rahman, Shafin and Khan, Salman and Porikli, Fatih}, <br>
+  			journal={arXiv preprint arXiv:1803.06049}, <br>
+  			year={2018} <br>
+			} </font>
+						
 			</left>
 		</td>
 			 </tr>
