@@ -16,7 +16,7 @@ Previosuly, I completed my PhD in Computer Vision from [The University of Wester
 * Our paper on ZSL accepted in IEEE TIP [Jul'18]
 * One paper accepted each in BMVC and WACV 2018. [Jul'18]
 * Our work on "Zero-shot detection" is now available: [Project Page](https://salman-h-khan.github.io/ProjectPages/ZSD_Arxiv18) [Apr'18]
-* Our book titled "A Guide to CNNs for Computer Vision" has been published by Morgan & Claypool [Feb'18]
+* Our book titled "A Guide to CNNs for Computer Vision" has been published [Feb'18]
 * One paper accepted in ICCV 2017, Venice, Italy [Jul'17]
 * Our paper on cost-sensitive deep learning will appear in IEEE TNNLS [Jul'17]
 * Paper on image-set classification has been accepted by IJCV [Apr'17]
