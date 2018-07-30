@@ -90,12 +90,15 @@ div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;
 <a href="../images/mat_nn_sparsifier.PNG"><img src="../images/mat_nn_sparsifier.PNG" alt="Sparsification" /></a>&nbsp;</td>
 <!-- width="150px" height="120px" -->
 <td align="left">
-	<p> Spectral signatures of natural scenes were earlier found to be distinctive for different scene types with varying spatial  
-	envelope  properties  such  as  openness,  naturalness, ruggedness, and symmetry. Recently, such handcrafted features 
-	have been outclassed by deep learning based repre-sentations. This project focuses on the development of novel spectral descriptions of 
-	convolution features, implemented efficiently as a unitary transformation within deep network architectures. 
-	We show that the spectral transformation decorrelates convolutional activations, which reduces co-adaptation between feature detections, thus acts as an 
-	effective regularizer.  
+	<p> Deep neural networks with very large number of parameters are considered to be very powerful algorithms to solve 
+	many ill posed problems but large number of parameters makes them computationally expensive and prone to over-fitting.
+	Many algorithms such as dropout etc. have been known that are used to sparsify neural networks to avoid these issues.
+	In this project, we have used some state of the art matrix sparsification methods to sparsify overall neural network i.e.
+	weights of intermediate layers are taken as a matrix and than sparsified such that change in matrix in terms of metric 
+	is minimized. Sparsification shows interesting results such as these algorithms was able to remove redundancy successfully
+	without hurting performance. Similarly, the decrease in the number of epochs for training increases sparsification by many
+	folds and as the number of weights for a layer increases, sparsification also increases by many folds. [Link]()
+	
 	 </p>
 </td></tr></table>
 
