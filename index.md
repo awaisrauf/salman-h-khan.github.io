@@ -6,28 +6,17 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: picture.jpg
 ---
-I am a Research Scientist at the Computer Vision Research Group (CVRG) at [Data61](http://www.data61.csiro.au/), [CSIRO](http://www.csiro.au/) (Commonwealth Scientific and Industrial Research Organization). I am also an Adjunct Lecturer at [College of Electrical & Computer Science](https://cecs.anu.edu.au/) (CECS), [Australian National University](http://www.anu.edu.au/) (ANU).<br><br>
+I am a Research Associate at the [SPIDER](spider.itu.edu.pk) Research Lab, [Information Technology University](http://www.itu.edu.pk/). In the last semester,
+ I was also teaching assistant of graduate course of [machine learning](awaisrauf.github.io/ee512) taught by [Dr. Ali Ahmed](https://itu.edu.pk/faculty-itu/dr-ali-ahmed/).<br><br>
 
 
-Previosuly, I completed my PhD in Computer Vision from [The University of Western Australia](http://www.uwa.edu.au/) (UWA), under the supervision of [W/Prof. Mohammed Bennamoun](http://staffhome.ecm.uwa.edu.au/~00051632/). My PhD thesis received `[Honorable Mention on the Dean's List](http://www.postgraduate.uwa.edu.au/students/funding/prizes/board-of-the-graduate-research-school-deans-list)' award at the UWA. I also completed an internship at [NICTA](https://en.wikipedia.org/wiki/NICTA) (National ICT Australia) in 2015. 
-
+I am in the last semester of my M.S. from [ITU](itu.edu.pk) and have completed my B.Sc. in Electrical Engineering from [UET Lahore](uet.edu.pk) .
 # News!
 
-* Our paper on ZSL accepted in IEEE TIP [Jul'18]
-* One paper accepted each in BMVC and WACV 2018. [Jul'18]
-* Our work on "Zero-shot detection" is now available: [Project Page](https://salman-h-khan.github.io/ProjectPages/ZSD_Arxiv18) [Apr'18]
-* Our book titled "A Guide to CNNs for Computer Vision" has been published [Feb'18]
-* One paper accepted in ICCV 2017, Venice, Italy [Jul'17]
-* Our paper on cost-sensitive deep learning will appear in IEEE TNNLS [Jul'17]
-* Paper on image-set classification has been accepted by IJCV [Apr'17]
-* One paper accepted in CVPR 2017, Hawaii, USA [Mar'17]
+* One of the top three contenders in [Election Prediction Contest](https://www.deeplinks.pk/election-prediction-contest-2018) held by [Ignite](https://ignite.org.pk/),
+ [Red Buffer](http://redbuffer.net/) and [DeepLinks](http://deeplinks.pk/) [Jul'18]
 
-[//]: # * One paper accepted in IJCAI 2017, Melbourne, Australia [Apr'17]
-[//]: # * My paper on change detection has been accepted by IEEE TGRS. [May'17]
-[//]: # * Our paper on image-set classification has been accepted by IJCV, Springer [Feb'17]
-[//]: # * Two papers on scene classification accepted for publication in IEEE TIP. [Jul'16]
-[//]: # * My paper on shadow detection and removal has now been accepted by IEEE TPAMI. [Nov'15]
-[//]: # * My paper on semantic labeling of indoor scenes has now been accepted by IJCV, Springer. [Oct'15]
-[//]: # * One paper accepted in ICCV 2015, Santiago, Chile. [Aug'15]
-[//]: # * My cuboid detection paper will appear in IEEE CVPR 2015, Boston. [Jun'15]
+
+[//]: # * Comments [Apr'17]
+
 
