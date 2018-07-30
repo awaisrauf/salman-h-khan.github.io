@@ -1,7 +1,7 @@
 ---
 layout: home2
 title: 
-description: "Salman Khan's website"
+description: "Muhammad Awais's website"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: picture.jpg
