@@ -6,7 +6,7 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: ai_panaroma.png
 ---
-I am a Research Associate at the [SPIDER](http://www.spider.itu.edu.pk) Research Lab, [Information Technology University](http://www.itu.edu.pk/). In the last semester,
+I am Research Associate at the [SPIDER](http://www.spider.itu.edu.pk) Research Lab, [Information Technology University](http://www.itu.edu.pk/). In the last semester,
  I was also teaching assistant of graduate course of [machine learning](https://awaisrauf.github.io/ee512/) taught by [Dr. Ali Ahmed](https://itu.edu.pk/faculty-itu/dr-ali-ahmed/).<br><br>
 
 
