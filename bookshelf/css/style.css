@@ -44,10 +44,10 @@
 body {
   background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/retina_wood_@2X.png);
   background-size: 512px;
-  overflow: hidden;
+  overflow-x: hidden;;
 }
 .topnav {
-  overflow: hidden;
+  overflow-x: hidden;;
   background-color: #fff;
   text-align: center;
   
@@ -73,4 +73,32 @@ body {
   color: white;
   text-align: center;
   
+}
+
+// header font style
+body {
+  background: #fff;
+}
+
+.wrap {
+  width: 765px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Times New Roman';
+  position: relative;
+  color: #bbb;
+}
+h1:before {
+  content: attr(data);
+  position: absolute;
+  left: -.03em;
+  top: .03em;
+  color: #ccc;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAFUlEQVQIW2NkQAKMIPZ/IGAEAWQZAE5lBATogF4qAAAAAElFTkSuQmCC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: -1;
 }

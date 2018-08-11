@@ -47,3 +47,31 @@ body {
   background-size: 512px;
   overflow: hidden;
 }
+
+// header font style
+body {
+  background: #1d1d1d;
+}
+
+.wrap {
+  width: 765px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 8em;
+  font-family: 'IM Fell Great Primer';
+  position: relative;
+  color: #fff;
+  &:before {
+    content: attr(data);
+    position: absolute;
+    left: -.03em;
+    top: .03em;
+    color: #ccc;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAFUlEQVQIW2NkQAKMIPZ/IGAEAWQZAE5lBATogF4qAAAAAElFTkSuQmCC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: -1;
+  }
+}
