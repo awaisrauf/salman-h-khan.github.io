@@ -15,7 +15,7 @@ I am in the last semester of my M.S. from [ITU](http://www.itu.edu.pk) and have 
 
 * Winner of [Election Prediction Contest](https://www.deeplinks.pk/election-prediction-contest-2018) held by [Ignite](https://ignite.org.pk/),
  [Red Buffer](http://redbuffer.net/), [DeepLinks](http://deeplinks.pk/) and [Code for Pakistan](https://twitter.com/CodeforPakistan/status/1024623283973578755) [(link)](https://propakistani.pk/2018/08/01/first-ever-election-prediction-contest-in-pakistan-concludes/)[Jul'18]
-* NVIDIA has accepted our proposal for [grant of Titan-X GPU](https://developer.nvidia.com/academic_gpu_seeding) to support research. [Aug'17] 
+* [NVIDIA](https://www.nvidia.com) has accepted our proposal for [grant of Titan-X GPU](https://developer.nvidia.com/academic_gpu_seeding) to support research. [Aug'17] 
 
 [//]: # * Comments [Apr'17]
 
