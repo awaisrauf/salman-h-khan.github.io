@@ -39,7 +39,7 @@ body > div {
 }
 
 </style>
-<html>
+<body>
 <h3>Information Technology University, Lahore</h3>
 <div class="clearfix float-my-children">
    <img src="http://aghaaliraza.com/itu-short.png" width=100>
@@ -53,5 +53,5 @@ body > div {
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/UET_Lahore_Logo.png" width=100>
    <div>some text here</div>
 </div>
-</html>
+</body>
 
