@@ -50,7 +50,7 @@ body > div {
 </div>
 <h4>University of Engineering and Technology, Lahore</h4>
 <div class="clearfix float-my-children">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/UET_Lahore_Logo.png" width=100>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/UET_Lahore_Logo.png" width=100 width=100>
    <div>some text here</div>
 </div>
 </body>
