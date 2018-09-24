@@ -1,5 +1,5 @@
 ---
-layout: page
+
 permalink: /a/
 title: Education
 tags: [education]
