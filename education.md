@@ -12,7 +12,8 @@ img {
 }
 h6,h5,h4 {
     float:center;
-    font:verdana;
+    font:verdana;}
+	{
 	margin-top:-10px;
     margin-bottom:5px;
 
