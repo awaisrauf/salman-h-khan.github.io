@@ -11,7 +11,7 @@ img {
     float:left;
 }
 h5,h4 {
-    float:center;
+    float:right;
     font:verdana;
     margin:0;
     padding:0;
@@ -23,9 +23,11 @@ h7 {
 </style>
 <body>
 <br>
+<div>
 <a> <img  src="http://aghaaliraza.com/itu-short.png" width="110" height="120" /></a>
 <h6> MS Electrical Engineering (Signal Processing and Machine Learning)</h6>
 <b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
+</div>
 <br>
 <a> <img  src="https://upload.wikimedia.org/wikipedia/commons/0/0c/UET_Lahore_Logo.png" width="110" height="120" /></a>
 <h6> BS Electrical Engineering</h6>
