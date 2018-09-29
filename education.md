@@ -1,5 +1,4 @@
 ﻿---
-layout: page
 title: "Education"
 permalink: /education/
 description: "My education"
