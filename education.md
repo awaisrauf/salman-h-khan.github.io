@@ -12,11 +12,14 @@ img {
 }
 h5,h4 {
     float:center;
-	font:verdana;
+    font:verdana;
+    margin:0;
+    padding:0;
 }
 h7 {
     float:center;
-}
+        font:verdana;
+    margin:0;
 </style>
 <body>
 
