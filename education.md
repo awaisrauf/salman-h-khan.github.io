@@ -13,7 +13,7 @@ img {
 h6,h5,h4 {
     float:center;
     font:verdana;
-	margin-top:-10px;
+	margin-top:-5px;
     margin-bottom:-5px;
 }
 div{
