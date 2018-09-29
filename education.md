@@ -10,18 +10,18 @@ description: "My education"
 img {
     float:left;
 }
-h5,h4 {
-    float:right;
+h6,h5,h4 {
+    float:center;
     font:verdana;
-    margin:0;
-    padding:0;
-	margin-left: 10em;
+
+	line-height: 0.2;
 }
 div{
-line-height: 0.5;
+p{
+    margin-top:-10px;
+}
 }
 h7 {
-margin-left: 10em;
     float:center;
         font:verdana;
     margin:0;
@@ -30,8 +30,9 @@ margin-left: 10em;
 <br>
 <div>
 <a> <img  src="http://aghaaliraza.com/itu-short.png" width="110" height="120" /></a>
-<h6>&nbsp; MS Electrical Engineering (Signal Processing and Machine Learning)</h6>
-<b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
+<h6>MS Electrical Engineering (Signal Processing and Machine Learning)</h6>
+<p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
+</p>
 </div>
 
 <br>
