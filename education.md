@@ -15,12 +15,13 @@ h5,h4 {
     font:verdana;
     margin:0;
     padding:0;
-	line-height: 1.8;
+	margin-left: 10em;
 }
 div{
-
+line-height: 0.5;
 }
 h7 {
+margin-left: 10em;
     float:center;
         font:verdana;
     margin:0;
@@ -29,7 +30,7 @@ h7 {
 <br>
 <div>
 <a> <img  src="http://aghaaliraza.com/itu-short.png" width="110" height="120" /></a>
-<h6> MS Electrical Engineering (Signal Processing and Machine Learning)</h6>
+<h6>&nbsp; MS Electrical Engineering (Signal Processing and Machine Learning)</h6>
 <b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
 </div>
 
@@ -37,8 +38,10 @@ h7 {
 <br>
 <div>
 <a> <img  src="https://upload.wikimedia.org/wikipedia/commons/0/0c/UET_Lahore_Logo.png" width="110" height="120" /></a>
+<pre>
 <h6> BS Electrical Engineering</h6>
 <b><u>Relevant Courses</u>:</b> Introduction to Computing, Programming Fundamentals, Data Structures, Linear Algebra, Scientific Computing, Applied Prob and Stats, Microprocessor Systems, Signal and Systems  
+</pre>
 </div>
 <br>
 <br>
