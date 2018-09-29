@@ -19,7 +19,7 @@ div{
 margin:10px;
 }
 p{ 
-    margin-top:-5px;
+    margin-top:-10px;
 }
 h7 {
     float:center;
