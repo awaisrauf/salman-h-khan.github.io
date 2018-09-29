@@ -17,8 +17,6 @@ h6,h5,h4 {
 }
 div{
 margin:10px;
-margin-left:10px;
-margin-right:10px;
 }
 p{ 
     margin-top:-5px;
