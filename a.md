@@ -22,7 +22,7 @@ h7 {
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 <br>
-<a> <img  src="images/awais.jpg" width="100" /></a>
+<a> <img  src="http://aghaaliraza.com/itu-short.png" width="100" /></a>
 [](images/awais.jpg)
 <h4>Information Technology University, Lahore</h4>
 <h6> MS Electrical Engineering (Signal Processing and Machine Learning)</h6>
