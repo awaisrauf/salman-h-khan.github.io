@@ -14,7 +14,7 @@ h7 {
 }
 </style>
 <body>
-<img  src="images/wais.jpg" width=100/>
+<img  src="images/awais.jpg" width=100/>
 <h4>Information Technology University, Lahore</h4>
 <h6> MS Electrical Engineering (Signal Processing and Machine Learning)</h6>
 <h7>Relevant Courses: Machine Learning</h7>
