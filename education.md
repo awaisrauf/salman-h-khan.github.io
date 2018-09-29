@@ -14,17 +14,18 @@ h6,h5,h4 {
     float:center;
     font:verdana;
 
-	line-height: 0.2;
 }
 div{
-p{
-    margin-top:-10px;
+margin:10px;
+margin-left:10px;
+margin-right:10px;
 }
+p{ 
+    margin-top:-5px;
 }
 h7 {
     float:center;
         font:verdana;
-    margin:0;
 </style>
 <body>
 <br>
@@ -34,7 +35,15 @@ h7 {
 <p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
 </p>
 </div>
+<br>
+<br>
 
+<div>
+<a> <img  src="https://upload.wikimedia.org/wikipedia/commons/0/0c/UET_Lahore_Logo.png" width="110" height="120" /></a>
+<h6>MS Electrical Engineering (Signal Processing and Machine Learning)</h6>
+<p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
+</p>
+</div>
 <br>
 <br>
 <div>
