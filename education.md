@@ -13,6 +13,8 @@ img {
 h6,h5,h4 {
     float:center;
     font:verdana;
+	margin-top:-10px;
+    margin-bottom:0px;
 
 }
 div{
@@ -29,6 +31,7 @@ h7 {
 <br>
 <div>
 <a> <img  src="http://aghaaliraza.com/itu-short.png" width="110" height="120" /></a>
+<h4>Information Technology University, Lahore</h4>
 <h6>MS Electrical Engineering (Signal Processing and Machine Learning)</h6>
 <p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
 </p>
