@@ -1,10 +1,5 @@
 ---
 
-permalink: /a/
-title: Education
-tags: [education]
-modified: 25-09-2018
-comments: true
 ---
 
 
