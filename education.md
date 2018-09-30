@@ -32,7 +32,11 @@ h7 {
 <a> <img  src="http://aghaaliraza.com/itu-short.png" width="110" height="120" /></a>
 
 
-<p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
+<p> <font size="15">Information Technology University, Lahore</font>
+<br>
+<font size="12">MS Electrical Engineering (Signal Processing and Machine Learning)</font>
+<br>
+<b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
 </p>
 </div>
 <br>
