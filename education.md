@@ -75,7 +75,7 @@ width="100" height="100"
 <table style="width:100% height:100%">
 
   <tr>
-    <td><a> <img  src="http://aghaaliraza.com/itu-short.png" /></a></td>
+    <td width="100" height="100"><a> <img  src="http://aghaaliraza.com/itu-short.png" /></a></td>
     <td>
     <h4>Information Technology University, Lahore</h4>
     <br>
@@ -85,7 +85,7 @@ width="100" height="100"
     </td>
   </tr>
     <tr>
-    <td><a> <img  src="http://aghaaliraza.com/itu-short.png" width="100" height="100" /></a></td>
+    <td width="100" height="100"><a> <img  src="http://aghaaliraza.com/itu-short.png" width="100" height="100" /></a></td>
     <td>Smith
     pak
     asjdfls
