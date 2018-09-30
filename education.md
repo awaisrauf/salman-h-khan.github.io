@@ -30,8 +30,8 @@ h7 {
 <br>
 <div>
 <a> <img  src="http://aghaaliraza.com/itu-short.png" width="110" height="120" /></a>
-<h4>Information Technology University, Lahore</h4>
-<h6>MS Electrical Engineering (Signal Processing and Machine Learning)</h6>
+
+
 <p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
 </p>
 </div>
@@ -41,8 +41,7 @@ h7 {
 <div>
 <a> <img  src="https://upload.wikimedia.org/wikipedia/commons/0/0c/UET_Lahore_Logo.png" width="110" height="120" /></a>
 <h6>MS Electrical Engineering (Signal Processing and Machine Learning)</h6>
-<p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
-</p>
+
 </div>
 <br>
 <br>
@@ -77,14 +76,13 @@ h7 {
 
   <tr>
     <td><a> <img  src="http://aghaaliraza.com/itu-short.png" width="100" height="100" /></a></td>
-    <td>Smith
-    pak
-    asjdfls
-    sjfdsd
+    <td>
+    <h4>Information Technology University, Lahore</h4>
     <br>
-    sdfjls
+    <h6>MS Electrical Engineering (Signal Processing and Machine Learning)</h6>
+    <p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
+</p>
     </td>
-    <td>50</td>
   </tr>
     <tr>
     <td><a> <img  src="http://aghaaliraza.com/itu-short.png" width="100" height="100" /></a></td>
