@@ -28,9 +28,9 @@ h7 {
 </style>
 <body>
 
-style="width:100% height:100%"
 
-<table >
+
+<table style="width:100% height:100%">
 
   <tr>
     <td width="100" height="100"><a> <img  src="http://aghaaliraza.com/itu-short.png" /></a></td>
@@ -72,13 +72,14 @@ style="width:100% height:100%"
     </p>
     </td>
   </tr>  
+  
     <tr>
     <td width="100" height="100"><a> <img  src="" width="100" height="100" /></a></td>
     <td>
 
     </td>
-   
   </tr>
 </table>
+
 </body>
 </html>
