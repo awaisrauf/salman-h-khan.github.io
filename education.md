@@ -27,56 +27,10 @@ h7 {
         font:verdana;
 </style>
 <body>
-<br>
-<div>
-<a> <img  src="http://aghaaliraza.com/itu-short.png" width="110" height="120" /></a>
 
+style="width:100% height:100%"
 
-<p> <font size="7">Information Technology University, Lahore</font>
-<br>
-<font size="6">MS Electrical Engineering (Signal Processing and Machine Learning)</font>
-<br>
-<b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
-</p>
-</div>
-<br>
-<br>
-
-<div>
-<a> <img  src="https://upload.wikimedia.org/wikipedia/commons/0/0c/UET_Lahore_Logo.png" width="110" height="120" /></a>
-<h6>MS Electrical Engineering (Signal Processing and Machine Learning)</h6>
-
-</div>
-<br>
-<br>
-<div>
-<a> <img  src="https://upload.wikimedia.org/wikipedia/commons/0/0c/UET_Lahore_Logo.png" width="110" height="120" /></a>
-<pre>
-<h6> BS Electrical Engineering</h6>
-<b><u>Relevant Courses</u>:</b> Introduction to Computing, Programming Fundamentals, Data Structures, Linear Algebra, Scientific Computing, Applied Prob and Stats, Microprocessor Systems, Signal and Systems  
-</pre>
-</div>
-<br>
-<br>
-<br>
-<div>
-<a> <img  src="https://www.insidehighered.com/sites/default/server_files/styles/large/public/media/coursera.png?itok=Y98JDeq-" width="110" height="110" /></a>
-<h6> Specialization in Deep Learning</h6>
-<b><u>Relevant Courses</u>:</b> 
-</div>
-<br>
-<br>
-<br>
-<br>
-<div>
-<a> <img  src="https://www.shegeeksout.com/wp-content/uploads/2016/07/edx-logo.png" width="110" height="110" /></a>
-<h6> Introduction to Computer Science (Stanford University)</h6>
-<h6> Shape the world: Microprocessor Systems (UC Berkley)</h6>
-</div>
-
-
-width="100" height="100" 
-<table style="width:100% height:100%">
+<table >
 
   <tr>
     <td width="100" height="100"><a> <img  src="http://aghaaliraza.com/itu-short.png" /></a></td>
@@ -84,17 +38,44 @@ width="100" height="100"
     <p> <font size="4">Information Technology University, Lahore </font></p>
     <p> <font size="3">MS Electrical Engineering (Signal Processing and Machine Learning)</font></p>
     <p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
-</p>
+    </p>
     </td>
   </tr>
+  
+  <tr>
+    <td width="100" height="100"><a> <img  src="https://upload.wikimedia.org/wikipedia/commons/0/0c/UET_Lahore_Logo.png" /></a></td>
+    <td>
+    <p> <font size="4">Information Technology University, Lahore </font></p>
+    <p> <font size="3">MS Electrical Engineering (Signal Processing and Machine Learning)</font></p>
+    <p><b><u>Relevant Courses</u>:</b> Introduction to Computing, Programming Fundamentals, Data Structures,
+	Linear Algebra, Scientific Computing, Applied Prob and Stats, Microprocessor Systems, Signal and Systems
+    </p>	
+    </td>
+  </tr>
+  
+  <tr>
+    <td width="100" height="100"><a> <img  src="https://www.insidehighered.com/sites/default/server_files/styles/large/public/media/coursera.png?itok=Y98JDeq-" /></a></td>
+    <td>
+    <p> <font size="4">Information Technology University, Lahore </font></p>
+    <p> <font size="3">MS Electrical Engineering (Signal Processing and Machine Learning)</font></p>
+    <p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
+    </p>
+    </td>
+  </tr>
+  
+  <tr>
+    <td width="100" height="100"><a> <img  src="https://www.shegeeksout.com/wp-content/uploads/2016/07/edx-logo.png" /></a></td>
+    <td>
+    <p> <font size="4">Information Technology University, Lahore </font></p>
+    <p> <font size="3">MS Electrical Engineering (Signal Processing and Machine Learning)</font></p>
+    <p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
+    </p>
+    </td>
+  </tr>  
     <tr>
-    <td width="100" height="100"><a> <img  src="http://aghaaliraza.com/itu-short.png" width="100" height="100" /></a></td>
-    <td>Smith
-    pak
-    asjdfls
-    sjfdsd
-    <br>
-    sdfjls
+    <td width="100" height="100"><a> <img  src="" width="100" height="100" /></a></td>
+    <td>
+
     </td>
    
   </tr>
