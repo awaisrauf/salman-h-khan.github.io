@@ -73,7 +73,7 @@ h7 {
 
 
 
-<table style="width:100% height:100%">
+<table style="width:100%>
 
   <tr>
     <td><a> <img  src="http://aghaaliraza.com/itu-short.png" width="50" height="50" /></a></td>
