@@ -72,7 +72,7 @@ h7 {
 
 
 
-<table style="width:100% height:100%">
+<table >
 
   <tr>
     <td><a> <img  src="http://aghaaliraza.com/itu-short.png" width="100" height="100" /></a></td>
@@ -93,7 +93,7 @@ h7 {
     <br>
     sdfjls
     </td>
-    <td>50</td>
+   
   </tr>
 </table>
 </body>
