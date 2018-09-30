@@ -37,7 +37,9 @@ h7 {
     <td>
     <p> <font size="4">Information Technology University, Lahore </font></p>
     <p> <font size="3">MS Electrical Engineering (Signal Processing and Machine Learning)</font></p>
-    <p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
+    <p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,
+	Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks,
+	Advance Digital Signal Processing 
     </p>
     </td>
   </tr>
@@ -56,20 +58,18 @@ h7 {
   <tr>
     <td width="100" height="100"><a> <img  src="https://www.insidehighered.com/sites/default/server_files/styles/large/public/media/coursera.png?itok=Y98JDeq-" /></a></td>
     <td>
-    <p> <font size="4">Information Technology University, Lahore </font></p>
+    <p> <font size="4">Coursera </font></p>
     <p> <font size="3">MS Electrical Engineering (Signal Processing and Machine Learning)</font></p>
-    <p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
-    </p>
+    <p><b><u>Relevant Courses</u>:</b>  </p>
     </td>
   </tr>
   
   <tr>
     <td width="100" height="100"><a> <img  src="https://www.shegeeksout.com/wp-content/uploads/2016/07/edx-logo.png" /></a></td>
     <td>
-    <p> <font size="4">Information Technology University, Lahore </font></p>
-    <p> <font size="3">MS Electrical Engineering (Signal Processing and Machine Learning)</font></p>
-    <p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
-    </p>
+    <p> <font size="4">edX</font></p>
+    <p> <font size="3">Deep Learning Specialization</font></p>
+    <p><b><u>Relevant Courses</u>:</b> </p>
     </td>
   </tr>  
   
