@@ -70,5 +70,33 @@ h7 {
 <h6> Introduction to Computer Science (Stanford University)</h6>
 <h6> Shape the world: Microprocessor Systems (UC Berkley)</h6>
 </div>
+
+
+
+<table style="width:100% height:100%">
+
+  <tr>
+    <td><a> <img  src="http://aghaaliraza.com/itu-short.png" width="50" height="50" /></a></td>
+    <td>Smith
+    pak
+    asjdfls
+    sjfdsd
+    <br>
+    sdfjls
+    </td>
+    <td>50</td>
+  </tr>
+    <tr>
+    <td><a> <img  src="http://aghaaliraza.com/itu-short.png" width="50" height="50" /></a></td>
+    <td>Smith
+    pak
+    asjdfls
+    sjfdsd
+    <br>
+    sdfjls
+    </td>
+    <td>50</td>
+  </tr>
+</table>
 </body>
 </html>
