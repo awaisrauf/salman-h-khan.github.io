@@ -81,9 +81,8 @@ width="100" height="100"
   <tr>
     <td width="100" height="100"><a> <img  src="http://aghaaliraza.com/itu-short.png" /></a></td>
     <td>
-    <p> <font size="3">Information Technology University, Lahore </font></p>
-    <br>
-    <p> <font size="2">MS Electrical Engineering (Signal Processing and Machine Learning)</font></h6>
+    <p> <font size="4">Information Technology University, Lahore </font></p>
+    <p> <font size="3">MS Electrical Engineering (Signal Processing and Machine Learning)</font></p>
     <p><b><u>Relevant Courses</u>:</b> Machine Learning, Advance Mathematics for Machine Learning,Natural Language Processing, Approximation Algorithms, Stochastic Systems, Advance Computer Networks, Advance Digital Signal Processing 
 </p>
     </td>
