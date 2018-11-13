@@ -1,5 +1,5 @@
 ---
-permalink: /deep_image_prior
+permalink: /xray-denoising
 ---
 
 <style type="text/css">
@@ -410,15 +410,13 @@ iframe {
       <div class="col center col-sm-8 col-sm-offset-2">
         <div id="cf">
           <center>
-          <img src="./images/xray-denoising/CHEST_NOISY_25.png" class="img-responsive" id="firstimage" width="250" height="300"/>
-          <img src="./images/xray-denoising/CHEST_SURE_CLEAN_25.png" class="img-responsive" width="250" height="300"/>
-          <img src="./images/xray-denoising/CHEST_MSE_CLEAN_25.png" class="img-responsive" width="250" height="300"/>
-          <img src="./images/xray-denoising/NLM_NOISY_25.png" class="img-responsive" width="250" height="300"/>
-          <img src="./images/xray-denoising/NLM_MSE_CLEAN_25.png" class="img-responsive" width="250" height="300"/>
-          <img src="./images/xray-denoising/NLM_SURE_CLEAN_25.png" class="img-responsive" id="lastimage" width="250" height="300"/>
-          </center>
+          <img src="./images/xray-denoising/cropped_07.png" class="img-responsive" id="firstimage"/>
+          <img src="./images/xray-denoising/CHEST.png" class="img-responsive"/>
+          <img src="./images/xray-denoising/NLM_NOISY_25.png" class="img-responsive"/>
+          <img src="./images/xray-denoising/NLM_SURE_CLEAN_25.png" class="img-responsive" id="lastimage"/>
+        </center>
         </div>
-        <span style="font-size:14px"><i>Example results on Indian University's Chest X-Ray and NHM Chest X-Ray Datasets </i>.
+        <span style="font-size:14px"><i>Example results on several image restoration problems. We use deep neural networks, but we never train/pretrain them using datasets. We use them as a structured image prior</i>.
         </span>
       </div>
     </div>
@@ -512,38 +510,45 @@ iframe {
       <!-- <div class="col-xs-8 col-xs-offset-2 text-justify"> -->
       <div class="section_title">Main idea</div>
       <p> <!-- style="text-indent: 30px" -->
-        In image restoration problems the goal is to recover original image $x$ having a corrupted image $x_0$. Such problems are often formulated as an optimization task: 
-        
-        <!-- <center>
-          <span style="width:100%; height: auto; display: block;padding: 0;margin: 0;"> -->
-            \begin{equation}\label{eq1}
-              \min_x E(x; x_0) + R(x)\,,
-            \end{equation}
-         <!--  </span>
-        </center>  -->
+	  \bf{X}
 
-        where $E(x; x_0)$ is a <i>data term</i> and $R(x)$ is an <i>image prior</i>. The data term $E(x; x_0)$ is usually easy to design for a wide range of problems, such as super-resolution, denoising, inpainting, while image prior $R(x)$ is a challenging one. Today's trend is to capture the prior $R(x)$ with a ConvNet by training it using large number of examples. 
-      </p>
-      <p>
-        We first notice, that for a surjective $g: \theta \mapsto x$ the following procedure in theory is equivalent to \eqref{eq1}:
-        
-        $$\min_\theta E(g(\theta); x_0) + R(g(\theta)) \,.$$
+      We consider recovering true X-ray image $\boldsymbol{x} \in \mathbb{R}^m$ from its noisy measurements of the form   
+		\begin{equation}
+		\boldsymbol{y} = \boldsymbol{x} + \boldsymbol{w},
+	\end{equation}
+		where $\bold{y} \in \mathbb{R}^m$ is noise corrupted image, and $\boldsymbol{w} \in \mathbb{R}^m$ denote
+		independent and identically distributed Gaussian noise i.e.  $\boldsymbol{w} \sim \mathcal{N}(0,\sigma^2 \boldsymbol{I}) $
+		where $\boldsymbol{I}$ is identity matrix and $\sigma$ is standard deviation that is assumed to be known. We are interested
+		in a weakly differentiable function $f_\theta(.)$ parameterized by $\theta$ that maps noisy X-ray images $\boldsymbol{y}$
+		to clean ones $\boldsymbol{x}$. We model $f_\theta(.)$ by a convolutional neural network (CNN) where $\theta$ are weights of
+		this network. CNN based denoising methods are typically trained by taking a representative set of images 
+		$\boldsymbol{x}_1, \boldsymbol{x}_2, ...\boldsymbol{x}_L$, along with set of observations 
+		$\boldsymbol{y}_1, \boldsymbol{y}_2...\boldsymbol{y}_L$, either physically or using simulations. The network then learns the
+		mapping $f_\theta : \boldsymbol{y} \rightarrow \boldsymbol{x}$ from observations back to images by minimizing a supervised
+		loss function; typically mean-squared-error (MSE) is employed as shown below.
+	\begin{equation} \label{eq:MSE}
+	\underset{\theta}{\text{min}} \quad
+	\sum_{\ell=1}^{L} \frac{1}{L} \Vert \boldsymbol{x}_{\ell} - f_\theta({\boldsymbol{y}_{\ell}}) \Vert^2. 
+	\end{equation}
 
-        In practice $g$ dramatically changes how the image space is searched by an optimization method. Furthermore, by selecting a "good" (possibly injective) mapping $g$, we could get rid of the prior term. We define $g(\theta)$ as $f_\theta(z)$, where $f$ is a deep ConvNet with parameters $\theta$ and $z$ is a fixed input, leading to the formulation
+	Note the dependence of MSE on ground truth images $\boldsymbol{x}$. Instead of optimizing MSE,
+	we employ SURE loss whose objective function with respect to $\boldsymbol{w}$ can be written as
+	\begin{equation} \label{eq:SURE}
+	\sum_{\ell=1}^{L} \frac{1}{L} \Vert \boldsymbol{y}_{\ell} - f_\theta({\boldsymbol{y}_{\ell}}) \Vert^2 - \sigma_{w}^2 + \frac{2 \sigma_{w}^2}{n} \text{div}_{\boldsymbol{y}}{(f_\theta(\boldsymbol{y}))},
+	\end{equation}
 
-        $$\min_\theta E(f_\theta (z); x_0) \,.$$ 
+	where $\text{div}(.)$ denotes divergence and is defined as
 
-        Here, the network $f_\theta$ is initialized randomly and input $z$ is filled with noise and fixed. 
-      </p>
-      <p>
-        In other words, <b>instead of searching for the answer in the image space we now search for it in the space of neural network's parameters</b>. We emphasize that we never use a pretrained network or an image database. Only corrupted image $x_0$ is used in the restoration process.  
-      </p>
-      <p>
-        See <a href="https://sites.skoltech.ru/app/data/uploads/sites/25/2018/04/deep_image_prior.pdf">paper</a> and <a href="https://box.skoltech.ru/index.php/s/ib52BOoV58ztuPM">supplementary material</a> for details. 
-      </p>
-
-      <!-- </div> -->
+	\begin{equation}
+	\text{div}_{\boldsymbol{y}}{(f_\theta(\boldsymbol{y})} = \sum_{\ell=1}^{L} \frac{\partial f_{\theta n} (\boldsymbol{y})}{\partial y_n}
+	\end{equation}
+	Calculating divergence of the denoiser is a central challenge for SURE based estimators. We estimate divergence via fast Monte Carlo
+	approximation, see \citep{ramani2008monte} for details. In short, instead of utilizing a supervised loss of MSE in \ref{eq:MSE},
+	we optimize network weights $\boldsymbol{\theta}$ in an unsupervised manner using \ref{eq:SURE}, that does not require ground truth.
     </div>
+	
+	
+	
 
       <!-- ====================================================== -->
     <!-- ============== PhotoSwipe ============================ -->
