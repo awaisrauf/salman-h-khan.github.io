@@ -144,12 +144,12 @@ permalink: /xray-denoising
 
 #cf {
   position:relative;
-  max-height:301px;
+  /*max-height:301px;*/
   /*width:450px;*/
 
   width:100%;
   height:100%;
-  /*overflow:hidden; */
+  overflow:hidden; 
   /*width:inherit;*/
 
   /*max-height: auto;*/
@@ -405,22 +405,21 @@ iframe {
   <!-- ====================================================== -->
 
     <br>
-  <center>
     <div class="row section center row-eq-height">
       <div class="col center col-sm-8 col-sm-offset-2">
         <div id="cf">
-          <center>
-          <img src="./images/xray-denoising/cropped_07.png" class="img-responsive" id="firstimage"/>
+
+          <img src="./images/xray-denoising/CHEST.png" class="img-responsive" id="firstimage"/>
+          <img src="./images/xray-denoising/NLM.png" class="img-responsive"/>
           <img src="./images/xray-denoising/CHEST.png" class="img-responsive"/>
-          <img src="./images/xray-denoising/NLM_NOISY_25.png" class="img-responsive"/>
-          <img src="./images/xray-denoising/NLM_SURE_CLEAN_25.png" class="img-responsive" id="lastimage"/>
-        </center>
+          <img src="./images/xray-denoising/NLM.png" class="img-responsive" id="lastimage"/>
+
         </div>
-        <span style="font-size:14px"><i>Example results on several image restoration problems. We use deep neural networks, but we never train/pretrain them using datasets. We use them as a structured image prior</i>.
+        <span style="font-size:14px"><i>Example Denoising: We trained a DnCNN to denoise an image without any ground  truth data.</i>.
         </span>
       </div>
+	  
     </div>
-  </center>
 
 
 
@@ -439,19 +438,11 @@ iframe {
 		deep learning based denoisers is the requirement of high quality
 		noiseless ground truth images that are difficult to obtain in many
 		medical imaging applications such as X-rays. To circumvent this issue,
-		we leverage recently proposed approach of \citep{soltanayev2018training}
+		we leverage recently proposed approach of this <a href="https://arxiv.org/pdf/1803.01314.pdf">paper</a>
 		that incorporates Stein's Unbiased Risk Estimator (SURE) to train a deep
 		convolutional neural network without requiring denoised ground truth 
 		X-ray data. 
-      </p>
-      <p> 
-        Apart from its diverse applications, our approach highlights
-        the inductive bias captured by standard generator
-        network architectures. It also bridges the gap between
-        two very popular families of image restoration methods:
-        learning-based methods using deep convolutional networks
-        and learning-free methods based on handcrafted image priors
-        such as self-similarity.
+
       </p>
       <!-- </div> -->
     </div>
@@ -461,46 +452,31 @@ iframe {
     <!-- ====================================================== -->
     <!-- ===================== LINKS ========================== -->
     <!-- ====================================================== -->
-    <center>
     <div class="row section" style="margin-bottom: -12px">
-      <div class="col-sm-10 col-sm-offset-1">
+	
+      <div class="col-sm-10 col-sm-offset-1" >
       <!-- <div class="col-sm-12 center"> -->
-        <div class="col-sm-3" style="margin-bottom: 12px">
+        <div class="col-sm-3" style="margin-bottom: 12px" align="center">
           <!-- <div class="col-sm-12"> -->
             <a href="https://sites.skoltech.ru/app/data/uploads/sites/25/2018/04/deep_image_prior.pdf">
                 <img src="./images/projects/pdf.svg" class="img_links img-responsive">
                 <div class="author">Paper</div>
             </a>
-          <!-- </div> -->
-        </div>
-        <div class="col-sm-3" style="margin-bottom: 12px">
-          <!-- <div class="col-sm-12"> -->
-            <a href="https://box.skoltech.ru/index.php/s/ib52BOoV58ztuPM">
-                <img src="./images/projects/pdf.svg" class="img_links img-responsive" >
-                <div class="author">Supmat</div>
-            </a>
-          <!-- </div> -->
-        </div>
-        <div class="col-sm-3" style="margin-bottom: 12px">
-          <!-- <div class="col-sm-12"> -->
-            <a href="https://box.skoltech.ru/index.php/s/INaUzvTWLak3h7Q">
-                <img src="./images/projects/pdf.svg" class="img_links img-responsive" >
-                <div class="author">Paper (journal)</div>
-            </a>
+
           <!-- </div> -->
         </div>
         <div class="col-sm-3" style="margin-bottom: 12px">
           <!-- <div class="col-sm-12"> -->
             <a href="https://github.com/DmitryUlyanov/deep-image-prior" >
                 <img src="./images/projects/github.svg" class="img_links img-responsive">
-                <div class="author">Code</div>
+                <div class="author">   Code</div>
             </a>
           <!-- </div> -->
         </div>
+		</div>
       <!-- </div> -->
     </div>
-  </div>
-  </center>
+  
 
 
     <!-- ====================================================== -->
@@ -510,13 +486,13 @@ iframe {
       <!-- <div class="col-xs-8 col-xs-offset-2 text-justify"> -->
       <div class="section_title">Main idea</div>
       <p> <!-- style="text-indent: 30px" -->
-	  \bf{X}
+
 
       We consider recovering true X-ray image $\boldsymbol{x} \in \mathbb{R}^m$ from its noisy measurements of the form   
 		\begin{equation}
 		\boldsymbol{y} = \boldsymbol{x} + \boldsymbol{w},
 	\end{equation}
-		where $\bold{y} \in \mathbb{R}^m$ is noise corrupted image, and $\boldsymbol{w} \in \mathbb{R}^m$ denote
+		where $\boldsymbol{y} \in \mathbb{R}^m$ is noise corrupted image, and $\boldsymbol{w} \in \mathbb{R}^m$ denote
 		independent and identically distributed Gaussian noise i.e.  $\boldsymbol{w} \sim \mathcal{N}(0,\sigma^2 \boldsymbol{I}) $
 		where $\boldsymbol{I}$ is identity matrix and $\sigma$ is standard deviation that is assumed to be known. We are interested
 		in a weakly differentiable function $f_\theta(.)$ parameterized by $\theta$ that maps noisy X-ray images $\boldsymbol{y}$
@@ -550,117 +526,37 @@ iframe {
 	
 	
 
-      <!-- ====================================================== -->
-    <!-- ============== PhotoSwipe ============================ -->
-    <!-- ====================================================== -->
-    <!-- <div class="container"> -->
-        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-          <!-- Background of PhotoSwipe. 
-               It's a separate element, as animating opacity is faster than rgba(). -->
-          <div class="pswp__bg"></div>
-
-          <!-- Slides wrapper with overflow:hidden. -->
-          <div class="pswp__scroll-wrap">
-
-              <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-              <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-              <div class="pswp__container">
-                  <div class="pswp__item"></div>
-                  <div class="pswp__item"></div>
-                  <div class="pswp__item"></div>
-              </div>
-
-              <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-              <div class="pswp__ui pswp__ui--hidden">
-
-                  <div class="pswp__top-bar">
-
-                      <!--  Controls are self-explanatory. Order can be changed. -->
-
-                      <div class="pswp__counter"></div>
-
-                      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                      <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                      <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-                      <!-- element will get class pswp__preloader- -active when preloader is running -->
-                      <div class="pswp__preloader">
-                          <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                              <div class="pswp__preloader__donut"></div>
-                            </div>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                      <div class="pswp__share-tooltip"></div> 
-                  </div>
-
-                  <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-                  </button>
-
-                  <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-                  </button>
-
-                  <div class="pswp__caption">
-                      <div class="pswp__caption__center"></div>
-                  </div>
-
-                </div>
-
-              </div>
-
-        </div>
 
   
     <!-- ====================================================== -->
     <!-- ============== Restoration process =================== -->
     <!-- ====================================================== -->
     <div class="row section">
-      <div class="section_title">Visualization of restoration process
-      </div>
-        <p class="hint">
-        Click on the image below and use left and right arrows or swipe.
-        </p>
-      <br>
-      
-      <div class="row row-centered center" id="methods_table" style="margin-bottom: 15px">
-        <div class="col-sm col-centered">
-          <img class="img-responsive img-process" id='process-snail'    src="/assets/deep-image-prior/teaser/cropped_03.png"/>
-        </div>
+      <div class="section_title">Training and Results
+      </div >
+	  <div align="center">
+	  <div>
+	  <figure > 
+	  <img height=250 width=500 src="images/xray-denoising/loss.png" alt="loss"> 
+	  <figcaption>Figure shows SURE loss as function of number of steps of training at different noise levels.
+Note that higher levels of noise makes it hard for the network to converge</figcaption> </figure>
+	  </div>
+	  <div>
+        <table style="border-collapse:collapse;border-spacing:0;table-layout: fixed; width: 481px" class="tg"><colgroup><col style="width: 144px"><col style="width: 69px"><col style="width: 70px"><col style="width: 66px"><col style="width: 66px"><col style="width: 66px"></colgroup><tr><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ffffff;text-align:left;vertical-align:top">Data Set </th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ffffff;text-align:left;vertical-align:top">Noise <br>Variance</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ffffff;text-align:left;vertical-align:top">Average <br>PSNR</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ffffff;text-align:left;vertical-align:top">Average<br>SSIM</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ffffff;text-align:left;vertical-align:top">Average<br>MSE</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ffffff;text-align:left;vertical-align:top">Average<br>Time</th></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">Indiana University  X-Rays Dataset </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">10 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">37.50 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">0.959 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">07.00 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">0.06</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top"></td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">25</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">32.00</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">0.881</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">13.15</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">0.06</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top"></td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">50</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">27.78</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">0.763</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">21.5</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#ecf4ff;text-align:left;vertical-align:top">0.06</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">Chest X-Rays </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">10 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">37.55 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">0.962 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">13.57 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">0.19</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top"></td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">25</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">31.85</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">0.877</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">26.14</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">0.19</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top"></td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">50</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">28.88</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">0.774</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">45.43</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;background-color:#efefef;text-align:left;vertical-align:top">0.19</td></tr></table>
+		Table shows performance of SURE based denoiser for two different datasets. SURE based model works comparably well although it does not require any clean dataset.
+		Interestingly, denoiser trained on [5] also works well on [8] </caption>
+		</table>
+      </div>  
 
-        <div class="col-sm col-centered">
-          <img class="img-responsive img-process" id='process-library' src="/assets/deep-image-prior/teaser/cropped_05.png"/>
-        </div>
-
-        <div class="col-sm col-centered">
-          <img class="img-responsive img-process" id='process-vase' src="/assets/deep-image-prior/teaser/cropped_08.png"/>
-        </div>
-
-        <div class="col-sm col-centered">
-          <img class="img-responsive img-process" id='process-zebra' src="/assets/deep-image-prior/teaser/cropped_01.png"/>
-        </div>
-
-        <div class="col-sm col-centered">
-          <img class="img-responsive img-process" id='process-F16' src="/assets/deep-image-prior/teaser/cropped_02.png"/>
-        </div>
-
-        <div class="col-sm col-centered">
-          <img class="img-responsive img-process" id='process-kate' src="/assets/deep-image-prior/teaser/cropped_09.png"/>
-        </div>
+        
       </div>
       
       <br>
       <br>
       <div class="section_title">Comparison with other methods</div>
-      <!-- <br> -->
+	  <div align="center">
+      <table style="border-collapse:collapse;border-spacing:0;border-color:#ccc;table-layout: fixed; width: 434px" class="tg"><colgroup><col style="width: 144px"><col style="width: 69px"><col style="width: 70px"><col style="width: 66px"><col style="width: 85px"></colgroup><tr><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ffffff;text-align:left;vertical-align:top">Loss </th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ffffff;text-align:left;vertical-align:top">Noise<br>Variance</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ffffff;text-align:left;vertical-align:top">Average<br>PSNR</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ffffff;text-align:left;vertical-align:top">Average<br>SSIM</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ffffff;text-align:left;vertical-align:top">Average<br>MSE</th></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ecf4ff;text-align:left;vertical-align:top">SURE </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ecf4ff;text-align:left;vertical-align:top">25 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ecf4ff;text-align:left;vertical-align:top">32.00 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ecf4ff;text-align:left;vertical-align:top">0.88 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ecf4ff;text-align:left;vertical-align:top">13.15</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ecf4ff;text-align:left;vertical-align:top"></td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ecf4ff;text-align:left;vertical-align:top">50</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ecf4ff;text-align:left;vertical-align:top">27.78</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ecf4ff;text-align:left;vertical-align:top">0.76</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#ecf4ff;text-align:left;vertical-align:top">21.50</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#efefef;text-align:left;vertical-align:top">MSE </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#efefef;text-align:left;vertical-align:top">25 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#efefef;text-align:left;vertical-align:top">35.39 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#efefef;text-align:left;vertical-align:top">0.95 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#efefef;text-align:left;vertical-align:top">08.96</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#efefef;text-align:left;vertical-align:top"></td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#efefef;text-align:left;vertical-align:top">50</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#efefef;text-align:left;vertical-align:top">29.61</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#efefef;text-align:left;vertical-align:top">0.82</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:2px 3px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:inherit;color:#333;background-color:#efefef;text-align:left;vertical-align:top">17.32</td></tr></table>
+   
     </div>
 
     <!-- ====================================================== -->
@@ -669,64 +565,30 @@ iframe {
     
 
     </div>
-    <iframe  id="myiframe" src="image_compare.html" scrolling="no" style="border-width: 0px;width: 100%;margin: 0;padding: 0" ></iframe>
-
-  
-    <div class="container">
-    <br>
-    <div class="row section" style="padding-bottom: 0px">
-      <div class="section_title">Methods in the comparison</div>
-      <div style="font-size: 10pt; margin-left: 35px">
-      <!-- <p> -->
-        <ul>
-      <li>
-        W. Lai, J. Huang, N. Ahuja and M. Yang, <a href="https://arxiv.org/abs/1704.03915">"Deep Laplacian Pyramid Networks for Fast and Accurate Super-Resolution"</a> CVPR, 2017
-      </li>
-      <li>C. Ledig, L. Theis, F. Huszar, J. Caballero, A. Cunningham, A. Acosta, A. Aitken, A. Tejani, J. Totz, Z. Wang and W. Shi,  <a href="https://arxiv.org/abs/1609.04802">"Photo-realistic single image super-resolution using a generative adversarial network"</a> CVPR, 2017
-      </li>
-      <li>
-      J. Huang, A. Singh and N. Ahuja, <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Huang_Single_Image_Super-Resolution_2015_CVPR_paper.pdf">"Single Image Super-Resolution from Transformed Self-Exemplars"</a> CVPR, 2015
-      </li>
-      <li>D. Glasner, S. Bagon, and M. Irani, <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.159.51&rep=rep1&type=pdf">"Super-resolution from a single image"</a> ICCV, 2009
-      </li>
-      <li>
-        V. Papyan,  Y. Romano,  J. Sulam  and  M.  Elad, <a href="https://arxiv.org/abs/1705.03239">"Convolutional  dictionary  learning  via  local  processing"</a> ICCV, 2017
-      </li>
-      <li>
-        K. Dabov, A. Foi, V. Katkovnik and K. Egiazarian, <a href="https://www.cs.tut.fi/~foi/GCF-BM3D/BM3D_TIP_2007.pdf">"Image Denoising by Sparse 3-D Transform-Domain Collaborative Filtering"</a> TIP, 2007
-      </li>
-      <li>
-      A. Buades, B. Coll and J. M. Morel, <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.374.7899&rep=rep1&type=pdf">"A non-local algorithm for image denoising"</a> CVPR, 2005
-      </li>
-      <li>
-      J. Ren, L. Xu, Q. Yan and W. Sun, <a href="https://papers.nips.cc/paper/5774-shepard-convolutional-neural-networks.pdf">"Shepard Convolutional Neural Networks"</a> NIPS, 2015
-      </li>
-       </ul>
-    </div>
+    
     </div>
 
     <div class="row section">
-      <div class="section_title">Acknowledgements</div>
-      Dmitry Ulyanov and Victor Lempitsky are supported by the Ministry of Education and Science of the Russian Federation (grant 14.756.31.0001) and Andrea Vedaldi is supported by ERC 677195-IDIU. 
-      Interactive visualization is based on <a href="http://graduatestudents.ucmerced.edu/wlai24/">Jason Lai</a>'s visualization for <a href="http://vllab.ucmerced.edu/wlai24/LapSRN/">LapSRN</a>. Images for <i>Glasner et al.</i> super-resolution method are taken from <a href="https://sites.google.com/site/jbhuang0604/">Jia-Bin Huang</a>'s <a href="https://github.com/jbhuang0604/SelfExSR">SelfExSR</a> repository. 
+      <div class="section_title">Acknowledgments</div>
+	  This page's template was taken from <a href="https://dmitryulyanov.github.io/deep_image_prior">page.</a>
     </div>
 
     <center>
     <div class="row row-eq-height" style="margin-bottom: 18px; margin-top: 10px" >
        
-          <div class="col-sm-4" style="margin-bottom: 12px">
-              <a href="http://www.skoltech.ru/en/">
-                  <img src="/assets/skoltech.png" class="img-responsive">
+          <div class="col-sm-4" style="margin-bottom: 12px ">
+              <a href="http://itu.edu.pk/">
+                  <img src="images/projects/itu.png" class="img-responsive">
               </a>
           </div>
           <div class="col-sm-4" style="margin-bottom: 12px">
-              <a href="https://yandex.com/company/">
-                  <img src="/assets/yandex.png" class=" img-responsive">
+              <a href="http://spider.itu.edu.pk/">
+                  <img src="images/projects/spider.png" class=" img-responsive">
               </a>
           </div>
           <div class="col-sm-4" style="margin-bottom: 12px">
-              <a href="http://www.ox.ac.uk/">
-                  <img src="/assets/oxford.png" class="img-responsive">
+              <a href="https://www.nvidia.com/en-us/">
+                  <img src="images/projects/nvidia.png" class="img-responsive">
               </a>
           </div>
     </div>
