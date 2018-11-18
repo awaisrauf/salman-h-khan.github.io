@@ -1,10 +1,5 @@
 
----
-permalink: /ai-roadmap/
-title: My AI RoadMap
-description: 
 
----
 # My AI RoadMap 
 ### Grabbing Free Knowledge Lying Around in WorldWideWeb
 
