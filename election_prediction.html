@@ -110,6 +110,7 @@ permalink: /election_prediction
     -o-animation: showHide 5s ease-in alternate infinite; /* Opera */
     animation: showHide 5s ease-in alternate infinite;
 }
+
 @-webkit-keyframes showHide { /* Chrome, Safari */
     0% {width:100%}
     40% {width:0%}
@@ -274,7 +275,24 @@ iframe {
   -o-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-
+.fulljustify {
+    	text-align:justify;
+    }
+    .fulljustify:after {
+        content: "";
+        display: inline-block;
+        width: 100%;	
+    }
+    #tagline {
+        height: 80px;
+        overflow: hidden;
+        line-height: 80px; /* vert-center */
+    }
+	
+.main_img
+img {
+		width: 90%;
+		height: auto;}
 </style>
 
 <!doctype html>
@@ -372,7 +390,7 @@ iframe {
           <div class="col-sm-4" style="margin-bottom: 10px">
             <!-- <div class="col-sm-12"> -->
               <a href="https://awaisrauf.github.io/">
-                  <img src="./images/awais_profile.jpg" class="shadow img_authors img-circle img-responsive">
+                  <img src="./images/awais.jpg" class="shadow img_authors img-circle img-responsive">
                   <div class="author"><span style="font-weight: 600">Muhammad Awais</span><br>ITU, SPIDER Lab</div>
               </a>
             <!-- </div> -->
@@ -403,32 +421,16 @@ iframe {
   <!-- ====================================================== -->
   <!-- ===================== TEASER ============== -->
   <!-- ====================================================== -->
-<br> 
- <div align="center">
-  <font color="red">Note: Paper accepted in Springer's <a href="https://www.springer.com/engineering/computational+intelligence+and+complexity/journal/12652">Journal of Ambient Intelligence and Humanized Computing's</a> special issue on Big Data Research for Politics with impact factor of 1.423. </font>
-    </div>
-	</br>
-	<br>
 	  <center>
-    <div class="row section center row-eq-height">
-      <div class="col center col-sm-8 col-sm-offset-2">
-        <div id="cf">
-
-          <img src="./images/election_prediction/map.png" class="img-responsive" id="firstimage"/>
-          <img src="./images/election_prediction/map.png" class="img-responsive"/>
-          <img src="./images/election_prediction/map.png" class="img-responsive"/>
-		  <img src="./images/election_prediction/map.png" class="img-responsive"/>
-          <img src="./images/election_prediction/map.png" class="img-responsive"/>
-		  <img src="./images/election_prediction/map.png" class="img-responsive"/>
-          <img src="./images/election_prediction/map.png" class="img-responsive"/>
-		  <img src="./images/election_prediction/map.png" class="img-responsive"/>
-          <img src="../images/election_prediction/map.png" class="img-responsive"/>
-		  
-          <img src="./images/election_prediction/map.png" class="img-responsive" id="lastimage"/>
-		  
-
-        </div>
-        <span style="font-size:14px"><i>Comparison of results as Dot-Map representation on map of Pakistan.</i>.
+    <div >
+      <div >
+	    <div  class="main_img">
+        <figure>
+			<img src="./images/election_prediction/map.png">
+			<figcaption style="font-size:14px"><i>Comparison of results as Dot-Map representation on map of Pakistan</i></figcaption>
+		</figure>
+		</div>
+.
         </span>
       </div>
 
@@ -438,19 +440,21 @@ iframe {
 
 
 
-
+  <font color="red"> <b>Note:</b></font> Paper accepted in Springer's <a href="https://www.springer.com/engineering/computational+intelligence+and+complexity/journal/12652">  JAIHC's</a> special issue on Big Data Research for Politics with impact factor of 1.423. 
     <!-- ====================================================== -->
     <!-- ===================== ABSTRACT ======================= -->
     <!-- ====================================================== -->
     <div class="row section">
       <!-- <div class="col-xs-8 col-xs-offset-2 text-justify"> -->
       <div class="section_title">Abstract</div>
-      <p> <!-- style="text-indent: 30px" -->
-        Election forecasting has become a routine activity in modern democracies, where a number of data sources such as polls, surveys, social media popularity are used to build prediction models. In this paper, we present a novel machine learning based election forecasting model that predicted Pakistan’s 2018 General Election with highest accuracy and won a nation-wide competition. To capture winning probability of individual candidates in a constituency, the model taps an array of statistics from different data sources. Past election data is employed to mine demographic trends of each party across the districts, Twitter, and approval polls are exploited to snap current popularity levels. Leveraging Bayesian optimization, the model combines the probabilities from different sources by ‘rigging’ the results for ten seats as win, where competition was expected to be one-sided. In contrast to the existing models that only predict aggregate share of votes for different political parties at national level, our model also effectively predicts the winning candidates on each and every national assembly seat. Seat share of political parties in national assembly seats were predicted with 83% accuracy. In 230 out of 270 constituencies, original winners were among the top two candidates predicted by the proposed technique. Our model produced most accurate results of 2018 election in Pakistan compared to all the opinion polls and surveys, and was acknowledged by a leading public sector agency working in this domain.
-
+      <p class= "fulljustify">
+        
+       In this project, we devised a novel machine learning based election forecasting model that predicted Pakistan’s 2018 General Election with highest accuracy and won a nation-wide datascience competition. Model predicts probaiity of win for each candidate contesting election. To capture this probability for individual candidates in a constituency, the model taps an array of statistics from different data sources. Past election data is employed to mine demographic trends of each party across the districts, Twitter, and approval polls are exploited to snap current popularity levels. Then, leveraging Bayesian optimization, the model combines probabilities from different sources by ‘rigging’ the results for ten seats, where competition was expected to be one-sided. In contrast to the existing models that only predict aggregate share of votes for different political parties at national level, our model also effectively predicts the winning candidates on each and every national assembly seat. Seat share of political parties in national assembly seats were predicted with 83% accuracy. In 230 out of 270 constituencies, original winners were among the top two candidates predicted by the proposed technique. Our model produced most accurate results of 2018 election in Pakistan compared to all the opinion polls and surveys, and was acknowledged by a leading public sector agency working in this domain.
       </p>
       <!-- </div> -->
-    </div>
+
+	</div>
+	
     
 
 
@@ -513,8 +517,8 @@ iframe {
     <div class="row section">
       <!-- <div class="col-xs-8 col-xs-offset-2 text-justify"> -->
       <div class="section_title">Main idea</div>
-      <p> <!-- style="text-indent: 30px" -->
-	  Our main objective was to predict the winner of each constituency, therefore, we developed a model that outputs a vector of probabilities of the win for each constituency. This vector shows the likelihood of win for each candidate in a constituency.   For instance, if a constituency has five candidates then output of the model might look like:  $[0.2, 0.32,0.43,0.02,0.03]$.  Each data source gives one such probability vector for each constituency. We assumed results for certain constituencies based on domain knowledge and employed Bayesian optimization to combine these vectors to have the final result. An overview of the model is presented in Figure \ref{fig:overview}. 
+      <p class= "fulljustify">
+	  Our main objective was to predict the winner of each constituency, therefore, we developed a model that outputs a vector of probabilities of the win for each constituency. This vector shows the likelihood of win for each candidate in a constituency.   For instance, if a constituency has five candidates then output of the model might look like:  $[0.2, 0.32,0.43,0.02,0.03]$.  Each data source gives one such probability vector for each constituency. We assumed results for certain constituencies based on domain knowledge and employed Bayesian optimization to combine these vectors to have the final result. 
 	  
          Following the tradition of election forecasting models, we considered win probability  for a particular candidate as a function of three variables; election history, surveys, and popularity based on social media,
 $$\vec{p_c} = f(\text{election history, surveys, social media}).$$
@@ -545,11 +549,11 @@ where
 
 In this model, each data source produces a probability vector for each constituency. The process for the computation of this probability vector is explained in next sections. Bayesian optimization is then employed to find optimal values of hyper-parameters such as $\vec{\alpha}$,$\vec{\beta}$,$\gamma,\delta$ to combine these vectors for a final result. Following subsections explains proposed model in detail.
       
-	In this approach, we first tracked constituencies where the election was one-sided. For this, we used common knowledge that prominent leaders of major political parties always choose `safe constituencies'. We rigged the results in the model for these strong candidates and declared the winners. After the rigging, we defined a function $g(\cdot)$ based on Equation \ref{eq:main_model} which returns $\ell$1 -normed difference between predicted and real results for rigged seats given values of hyper-parameters ($\vec{\alpha}, \vec{\beta}, \gamma, \delta$). We propose finding the values of the hyper-parameters by minimizing the following $\ell_1$ objective
+	In this approach, we first tracked constituencies where the election was one-sided. For this, we used common knowledge that prominent leaders of major political parties always choose `safe constituencies'. We rigged the results in the model for these strong candidates and declared the winners. After the rigging, we defined a function $g(\cdot)$ based on Equation 1 which returns $\ell$1 -normed difference between predicted and real results for rigged seats given values of hyper-parameters ($\vec{\alpha}, \vec{\beta}, \gamma, \delta$). We propose finding the values of the hyper-parameters by minimizing the following $\ell_1$ objective
 \[
  \hat{\vec{x}} =  \underset{\vec{x}}{\text{argmin}}\left[\sum_{c=1}^{l_{r}} \| p_c(\vec{x}) - \vec{r_c} \|_1\right],
 \]
-where $p_c(\vec{x})$ is a new function which returns $\vec{p_c}$ defined in Equation \ref{eq:main_model} given hyper-parameters: $\vec{x} = [\vec{\alpha}, \vec{\beta}, \gamma, \delta]$,   $l_{r}$ is the number of rigged seats and $r_c$ is one-hot encoded, rigged probability vector with one for rigged winner and zeros for all other candidates. 
+where $p_c(\vec{x})$ is a new function which returns $\vec{p_c}$ defined in Equation 1 given hyper-parameters: $\vec{x} = [\vec{\alpha}, \vec{\beta}, \gamma, \delta]$,   $l_{r}$ is the number of rigged seats and $r_c$ is one-hot encoded, rigged probability vector with one for rigged winner and zeros for all other candidates. 
 \[
    r_c[i]= 
 \begin{cases}
@@ -568,7 +572,7 @@ where $g(\vec{x})$ is a continuous objective function with unknown structure and
 	<div class="row section">	
 	<!-- <div class="col-xs-8 col-xs-offset-2 text-justify"> -->
       <div class="section_title">Data</div>
-      <p> <!-- style="text-indent: 30px" -->
+      <p class= "fulljustify">
 We have leveraged three different types of data in this model: i) Results of past four elections ii) Public poll data of last two years and ii) Tweets of three weeks before the election.
 
 Past elections data consists of information about each party's vote share in each constituency along with region's information. It is important to note that constituency names and boundaries change in every election so it is not useful for finding party's influence in a particular constituency. Therefore, we have converted this data into district level first using regional information and then used it in the model.	
@@ -577,35 +581,23 @@ Past elections data consists of information about each party's vote share in eac
 
   
     <!-- ====================================================== -->
-    <!-- ============== Restoration process =================== -->
+    <!-- ==============  =================== -->
     <!-- ====================================================== -->
     <div class="row section">
 	<!-- <div class="col-xs-8 col-xs-offset-2 text-justify"> -->
-      <div class="section_title">Training and Results</div >
-	  <div align="center">
-	  <p style="text-align: left;">We use <a href="https://openi.nlm.nih.gov/detailedresult.php?img=CXR111_IM-0076-1001&amp;req=4" target="_blank">Indiana University&rsquo;s Chest X-ray database</a> for training. Database consists of 7470 chest X-ray images of varying size, out of which we select 500 images for training due to scarcity of computational resources. Training images are re-scaled, cropped and flipped, to form a set of 789760 overlapping patches each of size 40 &times; 40. We use different settings of hyperparameters including learning rate, number of layers, patch size etc. to find optimal values. We trained DnCNN network using SURE loss without any clean data on three different noise levels of 10, 25 and 50. Following&nbsp;figure shows SURE training loss curve for each noise level. Note that network easily converges for small variance noise while higher noise levels make the network hard to converge.</p>
-	  <figure > 
-	  <img height=250 width=500 src="images/xray-denoising/loss.png" alt="loss"> 
-	  
 
-	  <div>
-	  <p style="text-align: left;">Quantitative denoising results for DnCNN trained using SURE loss and MSE loss for Gaussian noise with standard deviation of 25 and 50. Average values of PSNR, SSIM, and MSE are calculated for 10 images from a test set of <a href="https://openi.nlm.nih.gov/detailedresult.php?img=CXR111_IM-0076-1001&amp;req=4" target="_blank">Indiana University X-Ray dataset</a>.</p>
-      
-      </div>  
-
-        
-      </div>
       
       <br>
       <br>
       <div class="section_title">Comparison with other methods</div>
 	  <div align="center">
-	  <p style="text-align: left;">The table shows the performance of SURE based denoiser for two different datasets. SURE based model works comparably well although it does not require any clean dataset. Interestingly, denoiser trained on <a href="https://openi.nlm.nih.gov/detailedresult.php?img=CXR111_IM-0076-1001&amp;req=4" target="_blank">Indiana University X-Ray Dataset</a> also works well on <a href="https://www.kaggle.com/nih-chest-xrays/data" target="_blank">NIH Chest X-Ray Dataset</a>.&nbsp;</p>
-      
+	  <p style="text-align: left;"> These two tables show performance of proposed model compared to original results and some polls performed by traditional polling agencies. 
+      <center>
       <table style="border-collapse:collapse;border-spacing:0;border-color:#999;table-layout: fixed; width: 547px" class="tg"><colgroup><col style="width: 90px"><col style="width: 90px"><col style="width: 69px"><col style="width: 61px"><col style="width: 55px"><col style="width: 49px"><col style="width: 72px"><col style="width: 61px"></colgroup><tr><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#fff;background-color:#26ADE4;text-align:left;vertical-align:top"></th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#fff;background-color:#26ADE4;text-align:left;vertical-align:top">PTI </th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#fff;background-color:#26ADE4;text-align:left;vertical-align:top">PML-N </th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#fff;background-color:#26ADE4;text-align:left;vertical-align:top">PPPP </th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#fff;background-color:#26ADE4;text-align:left;vertical-align:top">MMA </th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#fff;background-color:#26ADE4;text-align:left;vertical-align:top">IND </th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#fff;background-color:#26ADE4;text-align:left;vertical-align:top">Others </th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#fff;background-color:#26ADE4;text-align:left;vertical-align:top">Total</th></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;font-weight:bold;text-align:left;vertical-align:top">Predicted </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">115 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">88 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">34 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">6 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">11 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">18 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">270</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;font-weight:bold;text-align:left;vertical-align:top">Original </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">116 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">64 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">43 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">12 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">13 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">22 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">270</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;font-weight:bold;text-align:left;vertical-align:top">Error % </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">0.37 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">8.88 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">3.33 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">2.22 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">0.74 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">1.48 </td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaaaaa;color:#444;background-color:#F7FDFA;text-align:left;vertical-align:top">17.03</td></tr>
 	  
 	   <caption>Table 1: Comparison of predicted vs real result.</caption>
 	  </table>
+	  </center>
 
 
 	  
@@ -624,15 +616,45 @@ Past elections data consists of information about each party's vote share in eac
     <!-- ====================================================== -->
     <!-- ============== Comparison ============================ -->
     <!-- ====================================================== -->
+    <div class="row section">
+	<!-- <div class="col-xs-8 col-xs-offset-2 text-justify"> -->
+
+      
+      <br>
+      <br>
+      <div class="section_title">Winner of Data Science Competition</div>
+	  <div align="center">
+	  <p style="text-align: left;"> These two tables show performance of proposed model compared to original results and some polls performed by traditional polling agencies. 
+      
+      
+
+
+	  
+
+     
+
+
+
+   
+    </div>
+
+    <!-- ====================================================== -->
+    <!-- ============== Comparison ============================ -->
+    <!-- ====================================================== -->
     
+
+    </div>
+    
+    </div>
+
 
     </div>
     
     </div>
 
     <div class="row section">
-      <div class="section_title">Acknowledgments</div>
-	  This page's template was taken from <a href="https://dmitryulyanov.github.io/deep_image_prior">page.</a>
+      <div class="section_title"> Acknowledgments</div>
+	  This page's template was taken from <a href="https://dmitryulyanov.github.io/deep_image_prior"> this page.</a>
     </div>
 
     <center>
