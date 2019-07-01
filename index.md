@@ -12,7 +12,9 @@ I am Research Associate at the [SPIDER](http://www.spider.itu.edu.pk) Research L
 
 I am in the last semester of my M.S. from [ITU](http://www.itu.edu.pk) and have completed my B.Sc. in Electrical Engineering from [UET Lahore](http://www.uet.edu.pk) .
 # News!
-* [Paper](https://awaisrauf.github.io/xray-denoising) accepted in NIPS 2018 workshop ML4h [Nov18]
+* [Paper](https://awaisrauf.github.io/election_prediction) accepted in Springer's Journal [JAIHC](https://www.springer.com/engineering/computational+intelligence+and+complexity/journal/12652) with Impact Factor of 1.42. 
+* Paper submitted in NeurIPS 2019. 
+* [Paper](https://awaisrauf.github.io/xray-denoising) accepted in NIPS 2018 workshop ML4H [Nov18]
 * Accepted for [Pytorch Scholarship Challenge](https://blog.udacity.com/2018/10/introducing-the-pytorch-scholarship-challenge-from-facebook.html) by Facebook [Nov18]
 * Got job offers from two companies, [Ebryx](ebryx.com) and [Redbuffer](http://redbuffer.net) with lucrative salary and benefits for the role of Software Engineer (Machine Learning)
 * Winner of [Election Prediction Contest](https://www.deeplinks.pk/election-prediction-contest-2018) held by [Ignite](https://ignite.org.pk/),
