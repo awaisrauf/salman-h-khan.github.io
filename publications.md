@@ -7,8 +7,8 @@ modified: 14-7-2016
 comments: true
 ---
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+
+
 
 <head>
   <meta name=viewport content="width=800">
