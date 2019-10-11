@@ -109,7 +109,7 @@ comments: true
           
           <tr>
             <td width="25%">
-              <img src='https://raw.githubusercontent.com/awaisrauf/awaisrauf.github.io/master/images/election_prediction/map.png'>
+              <img src='https://raw.githubusercontent.com/awaisrauf/awaisrauf.github.io/master/images/election_prediction/map_predicted.png'>
             </td>
             <td valign="top" width="75%">
               <p>
