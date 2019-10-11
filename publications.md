@@ -128,18 +128,10 @@ comments: true
           <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
             <td width="25%">
               <div class="one">
-                <div class="two" id='portrait_image'><img src='images/BD-J.PNG'></div>
-                <img src='https://raw.githubusercontent.com/awaisrauf/awaisrauf.github.io/master/images/election_prediction/map_predicted.png'>
+                <div class="two" id='portrait_image'><img src='https://raw.githubusercontent.com/awaisrauf/awaisrauf.github.io/master/images/election_prediction/map_predicted.png'></div>
+                <img   src='https://raw.githubusercontent.com/awaisrauf/awaisrauf.github.io/master/images/election_prediction/map_predicted.png'>
               </div>
-              <script type="text/javascript">
-                function portrait_start() {
-                  document.getElementById('portrait_image').style.opacity = "1";
-                }
-                function portrait_stop() {
-                  document.getElementById('portrait_image').style.opacity = "0";
-                }
-                portrait_stop()
-              </script>
+ 
             </td>
             <td valign="top" width="25%">
               <a href="https://drive.google.com/file/d/13i6DlS9UhGVKmwslLUFnKBwdxFRVQeQj/view?usp=sharing">
