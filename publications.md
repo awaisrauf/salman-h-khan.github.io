@@ -123,8 +123,7 @@ comments: true
                 <br>
                 <p></p>
                 <p>This paper proposes a novel approach to regularize the ill-posed and non-linear blind image deconvolution (blind                        deblurring) problem using deep generative networks</p>
-            </td>
-          </tr>
+ 
           
           <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
             <td width="25%">
