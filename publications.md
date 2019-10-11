@@ -11,7 +11,6 @@ comments: true
 
 
 <head>
-  <meta name=viewport content="width=800">
   <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
   <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -110,7 +109,7 @@ comments: true
           
           <tr>
             <td width="25%">
-              <img src='images/BD.PNG'>
+              <img src='https://raw.githubusercontent.com/awaisrauf/awaisrauf.github.io/master/images/election_prediction/map.png'>
             </td>
             <td valign="top" width="75%">
               <p>
@@ -123,7 +122,7 @@ comments: true
                 <em>Submitted to 'Which-Must-Not-Be-Named'</em>, 2019
                 <br>
                 <p></p>
-                <p>This paper proposes a novel approach to regularize the ill-posed and non-linear blind image deconvolution (blind deblurring) problem using deep generative networks</p>
+                <p>This paper proposes a novel approach to regularize the ill-posed and non-linear blind image deconvolution (blind                        deblurring) problem using deep generative networks</p>
             </td>
           </tr>
           
@@ -148,7 +147,8 @@ comments: true
                 <papertitle>Blind Image Deconvolution using Deep Generative Priors</papertitle>
               </a>
               <br>
-              <a href="http://people.csail.mit.edu/nwadhwa/">Muhammad Asim*</a>,
+              <a href="http://people.csail.mit.edu/nwadh
+	      wa/">Muhammad Asim*</a>,
               <a href="http://rahuldotgarg.appspot.com/"> <strong>Fahad Shamshad* </strong></a>,
               <a href="http://www.cs.cmu.edu/~ymovshov/">Ali Ahmed</a>,
               <br>
