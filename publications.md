@@ -129,7 +129,7 @@ comments: true
             <td width="25%">
               <div class="one">
                 <div class="two" id='portrait_image'><img src='images/BD-J.PNG'></div>
-                <img src='images/BD-J-after.PNG'>
+                <img src='https://raw.githubusercontent.com/awaisrauf/awaisrauf.github.io/master/images/election_prediction/map_predicted.png'>
               </div>
               <script type="text/javascript">
                 function portrait_start() {
