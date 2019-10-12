@@ -83,9 +83,9 @@ comments: false
     <title>Research</title>
     <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-</head>
 
-<body>
+
+
     <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
         <tr>
             <td>
@@ -235,6 +235,3 @@ comments: false
                 </td>
         </tr>
     </table>
-</body>
-
-</html>
