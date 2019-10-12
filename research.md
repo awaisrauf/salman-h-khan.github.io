@@ -229,9 +229,5 @@ comments: false
 
 
 
-                </table>
 
 
-                </td>
-        </tr>
-    </table>
