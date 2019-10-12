@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /publications/
-title: Publications
-tags: [publications]
-modified: 14-7-2016
+permalink: /research1/
+title: research
+tags: [research]
+modified: 11-10-2019
 comments: true
 ---
 
@@ -83,7 +83,7 @@ comments: true
     }
   </style>
   <link rel="icon" type="image/png" href="images/seal_icon.png">
-  <title>Fahad Shamshad</title>
+  <title>Research</title>
   <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 </head>
@@ -97,9 +97,8 @@ comments: true
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td width="100%" valign="middle">
-              <heading>Research</heading>
               <p>
-                I am interested in computational imaging, machine learning, optimization, and image processing.. Much of my recent research is about regularizing the inverse problems in signal and image processing using generative models (GANs, VAEs and Intertible models). Before that i have worked on theoretical aspect of samling architectures designed for low rank and sparse signals. I have also worked on removing Poisson noise in low light imaging in astronomy.
+               .....
               </p>
             </td>
           </tr>
