@@ -172,9 +172,62 @@ comments: false
                             <p>We propose robust ptychography algorithm that acheive comparable reconstruction results to state of the art at low subsampling ratios.</p>
                         </td>
                     </tr>
+					
+					 <tr >
+                        <td width="25%">
+                            <div class="one">
+                                <div class="two" id='aperture_image'><img src='images/ptych.PNG'></div>
+                                <img src='images/ptych.PNG'>
+                            </div>
+        
+                        </td>
+                        <td valign="top" width="75%">
+                            <a href="https://drive.google.com/open?id=1MpvxcW7OTJP321QL_q4ZLQ8D653bZZzy">
+                                <papertitle>Leveraging Deep Stein’s based Risk Estimator for Unsupervised X-ray Denoising </papertitle>
+                            </a>
+                            <br>
+                            <a href="https://people.eecs.berkeley.edu/~pratul/">Fahad Shamshad</a>,
+                            <a href="http://rahuldotgarg.appspot.com/">Muhammad Awais</a>,
+                            <a href="http://people.csail.mit.edu/nwadhwa/">Ali Ahmed</a>,
+                            <br>
+                            <em>Accepted in NIPSw</em>, 2018
+                            <br>
+                            <a href="">code</a> /
+                            <a href="">bibtex</a>
+                            <p></p>
+                            <p>In this work, we leveraged stein unbiased estimator to train a convolutional network that can denoise medical images without requiring any ground truth. We also proposed a way to extend this to Poisson noise. </p>
+                        </td>
+                    </tr>
+					
+										 <tr >
+                        <td width="25%">
+                            <div class="one">
+                                <div class="two" id='aperture_image'><img src='images/ptych.PNG'></div>
+                                <img src='images/ptych.PNG'>
+                            </div>
+        
+                        </td>
+                        <td valign="top" width="75%">
+                            <a href="https://drive.google.com/open?id=1MpvxcW7OTJP321QL_q4ZLQ8D653bZZzy">
+                                <papertitle>Predicting Election using a Novel Rigged Model</papertitle>
+                            </a>
+                            <br>
+                            <a href="https://people.eecs.berkeley.edu/~pratul/">Fahad Shamshad</a>,
+                            <a href="http://rahuldotgarg.appspot.com/">Muhammad Awais</a>,
+                            <a href="http://people.csail.mit.edu/nwadhwa/">Ali Ahmed</a>,
+                            <br>
+                            <em>Accepted in <a href="https://www.springer.com/journal/12652"> Springer Journal (IF=1.5)</a></em>, 2019
+                            <br>
+                            <a href="">code</a> /
+                            <a href="">bibtex</a>
+                            <p></p>
+                            <p>Introduced a novel, data science, machine learning and statistics-based approach to predict constituency level results of general election 2018 of Pakistan before the election. This algorithm won the national level prediction challenge. Results: 250 out of 270 seats were correctly predicted for the top two candidates.
+							</p>
+                        </td>
+                    </tr>
 
-                    
-                    
+
+
 
                 </table>
 
