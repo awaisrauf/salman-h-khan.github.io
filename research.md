@@ -177,20 +177,20 @@ comments: false
                         <td width="25%">
                             <div class="one">
                                 <div class="two" id='aperture_image'><img src='images/ptych.PNG'></div>
-                                <img src='images/ptych.PNG'>
+                                <img src='https://github.com/awaisrauf/awaisrauf.github.io/blob/master/images/xray-denoising/CHEST_SURE_CLEAN_25.png'>
                             </div>
         
                         </td>
                         <td valign="top" width="75%">
-                            <a href="https://drive.google.com/open?id=1MpvxcW7OTJP321QL_q4ZLQ8D653bZZzy">
+                            <a href="https://awaisrauf.github.io/xray-denoising">
                                 <papertitle>Leveraging Deep Stein’s based Risk Estimator for Unsupervised X-ray Denoising </papertitle>
                             </a>
                             <br>
-                            <a href="https://people.eecs.berkeley.edu/~pratul/">Fahad Shamshad</a>,
-                            <a href="http://rahuldotgarg.appspot.com/">Muhammad Awais</a>,
-                            <a href="http://people.csail.mit.edu/nwadhwa/">Ali Ahmed</a>,
+                            <a href="">Fahad Shamshad</a>,
+                            <a href="">Muhammad Awais</a>,
+                            <a href="">Ali Ahmed</a>,
                             <br>
-                            <em>Accepted in NIPSw</em>, 2018
+                            <em>Accepted in NIPSw ML4H</em>, 2018
                             <br>
                             <a href="">code</a> /
                             <a href="">bibtex</a>
@@ -199,7 +199,7 @@ comments: false
                         </td>
                     </tr>
 					
-										 <tr >
+					<tr >
                         <td width="25%">
                             <div class="one">
                                 <div class="two" id='aperture_image'><img src='images/ptych.PNG'></div>
