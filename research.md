@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /research1/
+permalink: /research/
 title: research
 tags: [research]
 modified: 11-10-2019
@@ -108,20 +108,20 @@ comments: true
           
           <tr>
             <td width="25%">
-              <img src='https://raw.githubusercontent.com/awaisrauf/awaisrauf.github.io/master/images/election_prediction/map_predicted.png'>
+              <img src=''>
             </td>
             <td valign="top" width="75%">
               <p>
-                <a href="https://arxiv.org/abs/1701.03077">
-                  <papertitle>Blind Image Deconvolution using Pretrained Generative Priors</papertitle>
+                <a href="https://openreview.net/pdf?id=BJlEEaEFDS">
+                  <papertitle>Towards an Adversarially Robust Normalization Approach</papertitle>
                 </a>
                 <br>
-                Muhammad Asim*, <strong> Fahad Shamshad* </strong>, Ali Ahmed
+                <strong>Muhammad Awais </strong> Fahad Shamshad , Sung-Ho Bae
                 <br>
-                <em>Submitted to 'Which-Must-Not-Be-Named'</em>, 2019
+                <em>Submitted to ICLR</em>, 2020
                 <br>
                 <p></p>
-                <p>This paper proposes a novel approach to regularize the ill-posed and non-linear blind image deconvolution (blind                        deblurring) problem using deep generative networks</p>
+                <p>With immense benefits of BatchNorm also comes its adversarial vulnerability as shown by recent papers. In this work, we first investigated how BatchNorm causes this vulnerability and how to avoid it. We also proposed a new normalization called RobustNorm which inherits all the benefits of BatchNorm while being more adversarially robust then BatchNorm.</p>
  
           
           <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
