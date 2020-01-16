@@ -11,7 +11,7 @@ I am Ph.D. student in Machine Learning and Visual Computing Lab, Kyung-Hee Unive
 
 [//]: #I am in the last semester of my M.S. from [ITU](http://www.itu.edu.pk) and have completed my B.Sc. in Electrical Engineering from [UET Lahore](http://www.uet.edu.pk) .
 # News!
-* Paper submitted to ICLR20.
+* I will be Joining Huawei's Noah's Ark Research Lab from next semester as Assistant Researcher. 
 * Paper accepted in ICCV19w on Learning for Computational Imaging. 
 * Paper submitted to NeurIPS19.
 * [Paper](https://awaisrauf.github.io/election_prediction) accepted in Springer's Journal [JAIHC](https://www.springer.com/engineering/computational+intelligence+and+complexity/journal/12652) with Impact Factor of 1.42. 
