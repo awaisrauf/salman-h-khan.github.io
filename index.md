@@ -5,7 +5,7 @@ description: "Muhammad Awais's website"
 tags: [Jekyll, theme, responsive, blog, template]
 
 ---
-I am Ph.D. student in Machine Learning and Visual Computing Lab, Kyung-Hee University, South Korea. Before this, I was Research Associate at the [SPIDER](http://www.spider.itu.edu.pk) Research Lab, [Information Technology University](http://www.itu.edu.pk/). During MS, I was also teaching assistant of graduate course of [machine learning](https://awaisrauf.github.io/ee512/) and advance signal processing taught by [Dr. Ali Ahmed](https://itu.edu.pk/faculty-itu/dr-ali-ahmed/). I was also TA for three undergrad courses with [Usama Bin Sikandar](http://usamabinsikandar.weebly.com/teaching.html).<br><br>
+I am Ph.D. student in [Machine Learning and Visual Computing Lab](https://sites.google.com/a/khu.ac.kr/mlvc/), Kyung-Hee University, South Korea and waiting for normalacy to join [Noah's Ark Lab](http://www.noahlab.com.hk/), Huwaei. Before this, I was Research Associate at the [SPIDER](http://www.spider.itu.edu.pk) Research Lab, [Information Technology University](http://www.itu.edu.pk/). During MS, I was also teaching assistant of graduate course of [machine learning](https://awaisrauf.github.io/ee512/) and advance signal processing taught by [Dr. Ali Ahmed](https://itu.edu.pk/faculty-itu/dr-ali-ahmed/). I was also TA for three undergrad courses with [Usama Bin Sikandar](http://usamabinsikandar.weebly.com/teaching.html).<br><br>
 
 
 [//]: #I am in the last semester of my M.S. from [ITU](http://www.itu.edu.pk) and have completed my B.Sc. in Electrical Engineering from [UET Lahore](http://www.uet.edu.pk) .
