@@ -3,8 +3,7 @@ layout: home2
 title: 
 description: "Muhammad Awais's website"
 tags: [Jekyll, theme, responsive, blog, template]
-image:
-  feature: ai_panaroma.png
+
 ---
 I am Ph.D. student in Machine Learning and Visual Computing Lab, Kyung-Hee University, South Korea. Before this, I was Research Associate at the [SPIDER](http://www.spider.itu.edu.pk) Research Lab, [Information Technology University](http://www.itu.edu.pk/) during my MS. While doing MS, I was also teaching assistant of graduate course of [machine learning](https://awaisrauf.github.io/ee512/) taught by [Dr. Ali Ahmed](https://itu.edu.pk/faculty-itu/dr-ali-ahmed/).<br><br>
 
