@@ -12,9 +12,7 @@ I am Ph.D. student in Machine Learning and Visual Computing Lab, Kyung-Hee Unive
 # News!
 * I will be Joining Huawei's Noah's Ark Research Lab from next semester as Assistant Researcher. 
 * Paper accepted in ICCV19w on Learning for Computational Imaging. 
-* Paper submitted to NeurIPS19.
 * [Paper](https://awaisrauf.github.io/election_prediction) accepted in Springer's Journal [JAIHC](https://www.springer.com/engineering/computational+intelligence+and+complexity/journal/12652) with Impact Factor of 1.42. 
-* Paper submitted in NeurIPS 2019. 
 * [Paper](https://awaisrauf.github.io/xray-denoising) accepted in NIPS 2018 workshop ML4H [Nov18]
 * Won [Election Prediction Contest](https://www.deeplinks.pk/election-prediction-contest-2018) held by [Ignite](https://ignite.org.pk/),
  [Red Buffer](http://redbuffer.net/), [DeepLinks](http://deeplinks.pk/) and [Code for Pakistan](https://twitter.com/CodeforPakistan/status/1024623283973578755) [(link)](https://propakistani.pk/2018/08/01/first-ever-election-prediction-contest-in-pakistan-concludes/)[Jul'18]
