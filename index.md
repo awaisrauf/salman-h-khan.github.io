@@ -14,7 +14,7 @@ I am Ph.D. student in [Machine Learning and Visual Computing Lab](https://sites.
 * Paper accepted in ICCV19w on Learning for Computational Imaging. 
 * [Paper](https://awaisrauf.github.io/election_prediction) accepted in Springer's Journal [JAIHC](https://www.springer.com/engineering/computational+intelligence+and+complexity/journal/12652) with Impact Factor of 1.42. 
 * [Paper](https://awaisrauf.github.io/xray-denoising) accepted in NIPS 2018 workshop ML4H [Nov18]
-* Won [Election Prediction Contest](https://www.deeplinks.pk/election-prediction-contest-2018) held by [Ignite](https://ignite.org.pk/),
+* Won [Election Prediction Contest](http://awaisrauf.github.com/election_prediction) held by [Ignite](https://ignite.org.pk/),
  [Red Buffer](http://redbuffer.net/), [DeepLinks](http://deeplinks.pk/) and [Code for Pakistan](https://twitter.com/CodeforPakistan/status/1024623283973578755) [(link)](https://propakistani.pk/2018/08/01/first-ever-election-prediction-contest-in-pakistan-concludes/)[Jul'18]
 * [NVIDIA](https://www.nvidia.com) has accepted our proposal for [grant of Titan-X GPU](https://developer.nvidia.com/academic_gpu_seeding) to support research. [Aug'17] 
 * [Paper](https://dl.acm.org/citation.cfm?id=3136597) accepted in [ICTD17](http://ictd2017.itu.edu.pk/) 
