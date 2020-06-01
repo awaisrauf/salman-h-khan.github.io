@@ -5,7 +5,7 @@ description: "Muhammad Awais's website"
 tags: [Jekyll, theme, responsive, blog, template]
 
 ---
-I am Ph.D. student in [MLVC Lab](https://sites.google.com/a/khu.ac.kr/mlvc/), Kyung-Hee University, South Korea and waiting for the return of normalacy from covid19 pandemic to join [Noah's Ark Lab](http://www.noahlab.com.hk/), Huwaei as Asst. Researcher. Before this, I was Research Associate at the [SPIDER](http://www.spider.itu.edu.pk) Research Lab, [ITU](http://www.itu.edu.pk/). During my MS, I worked as teaching assistant for two graduate courses, [machine learning](https://awaisrauf.github.io/ee512/) and advance signal processing taught by [Dr. Ali Ahmed](https://itu.edu.pk/faculty-itu/dr-ali-ahmed/) and three undergrad courses with [Usama Bin Sikandar](http://usamabinsikandar.weebly.com/teaching.html).<br><br>
+I am a Ph.D. student in [MLVC Lab](https://sites.google.com/a/khu.ac.kr/mlvc/), Kyung-Hee University, South Korea and waiting for the return of normalcy from covid19 pandemic to join [Noah's Ark Lab](http://www.noahlab.com.hk/), Huwaei as Asst. Researcher. Previously, I was Research Associate at the [SPIDER](http://www.spider.itu.edu.pk) Research Lab, [ITU](http://www.itu.edu.pk/). During my MS, I worked as a teaching assistant for two graduate courses, [machine learning](https://awaisrauf.github.io/ee512/) and advance signal processing taught by [Dr. Ali Ahmed](https://itu.edu.pk/faculty-itu/dr-ali-ahmed/) and three undergrad courses with [Usama Bin Sikandar](http://usamabinsikandar.weebly.com/teaching.html).<br><br>
 
 
 
