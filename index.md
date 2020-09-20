@@ -5,7 +5,7 @@ description: "Muhammad Awais's website"
 tags: [Jekyll, theme, responsive, blog, template]
 
 ---
-I am assistant reesearcher at AI Theory Group, [Noah's Ark Lab, Huawei](http://www.noahlab.com.hk/#/home) and a Ph.D. student in [MLVC Lab](https://sites.google.com/a/khu.ac.kr/mlvc/), Kyung-Hee University, South Korea. Previously, I was Research Associate at the [SPIDER](http://www.spider.itu.edu.pk) Research Lab, [ITU](http://www.itu.edu.pk/). During my MS, I worked as a teaching assistant for two graduate courses, [machine learning](https://awaisrauf.github.io/ee512/) and advance signal processing taught by [Dr. Ali Ahmed](https://itu.edu.pk/faculty-itu/dr-ali-ahmed/) and three undergrad courses with [Usama Bin Sikandar](http://usamabinsikandar.weebly.com/teaching.html).<br><br>
+I am an assistant researcher at AI Theory Group, [Noah's Ark Lab, Huawei](http://www.noahlab.com.hk/#/home), and a Ph.D. student in [MLVC Lab](https://sites.google.com/a/khu.ac.kr/mlvc/), Kyung-Hee University, South Korea. Previously, I was Research Associate at the [SPIDER](http://www.spider.itu.edu.pk) Research Lab, [ITU](http://www.itu.edu.pk/). During my MS, I worked as a teaching assistant for two graduate courses, [machine learning](https://awaisrauf.github.io/ee512/) and advance signal processing taught by [Dr. Ali Ahmed](https://itu.edu.pk/faculty-itu/dr-ali-ahmed/) and three undergrad courses with [Usama Bin Sikandar](http://usamabinsikandar.weebly.com/teaching.html).<br><br>
 
 
 
@@ -22,7 +22,7 @@ I am assistant reesearcher at AI Theory Group, [Noah's Ark Lab, Huawei](http://w
 * [Paper](https://dl.acm.org/citation.cfm?id=3136597) accepted in [ICTD17](http://ictd2017.itu.edu.pk/) [May'17]
 
 [//]: # * Comments [Apr'17]
-[//]: #* Accepted in Ph.D. program of [Kyung Hee University](http://old_www.khu.ac.kr/eng/index.jsp) with International [QS ranking of 264](https://www.topuniversities.com/universities/kyung-hee-university) and Asian QS ranking of 33.
+[//]: #* Accepted in the Ph.D. program of [Kyung Hee University](http://old_www.khu.ac.kr/eng/index.jsp) with International [QS ranking of 264](https://www.topuniversities.com/universities/kyung-hee-university) and Asian QS ranking of 33.
 
 
 
