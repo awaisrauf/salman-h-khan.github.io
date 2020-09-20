@@ -1,16 +1,18 @@
 ---
 layout: home2
-title: 
+title: Awais
 description: "Muhammad Awais's website"
 tags: [Jekyll, theme, responsive, blog, template]
 
 ---
-I am a Ph.D. student in [MLVC Lab](https://sites.google.com/a/khu.ac.kr/mlvc/), Kyung-Hee University, South Korea and waiting for the return of normalcy from covid19 pandemic to join [Noah's Ark Lab](http://www.noahlab.com.hk/), Huwaei as Asst. Researcher. Previously, I was Research Associate at the [SPIDER](http://www.spider.itu.edu.pk) Research Lab, [ITU](http://www.itu.edu.pk/). During my MS, I worked as a teaching assistant for two graduate courses, [machine learning](https://awaisrauf.github.io/ee512/) and advance signal processing taught by [Dr. Ali Ahmed](https://itu.edu.pk/faculty-itu/dr-ali-ahmed/) and three undergrad courses with [Usama Bin Sikandar](http://usamabinsikandar.weebly.com/teaching.html).<br><br>
+I am assistant reesearcher at AI Theory Group, [Noah's Ark Lab, Huawei](http://www.noahlab.com.hk/#/home) and a Ph.D. student in [MLVC Lab](https://sites.google.com/a/khu.ac.kr/mlvc/), Kyung-Hee University, South Korea. Previously, I was Research Associate at the [SPIDER](http://www.spider.itu.edu.pk) Research Lab, [ITU](http://www.itu.edu.pk/). During my MS, I worked as a teaching assistant for two graduate courses, [machine learning](https://awaisrauf.github.io/ee512/) and advance signal processing taught by [Dr. Ali Ahmed](https://itu.edu.pk/faculty-itu/dr-ali-ahmed/) and three undergrad courses with [Usama Bin Sikandar](http://usamabinsikandar.weebly.com/teaching.html).<br><br>
 
 
 
 # News!
-* I will be Joining Huawei's Noah's Ark Research Lab from next semester as Assistant Researcher [Jan'20]. 
+* Our paper accepted in [IEEE Transactions on Neural Networks and Learning Systems](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems) (IF=12.18) [Sep'20].
+* I was invited by Dr. [Cihang Xie](https://cihangxie.github.io/) to review Workshop on Adversarial Robustness in the Real World in ECCV 2020. [July'20]
+* I have Joined Huawei's Noah's Ark Research Lab as Assistant Researcher [Jan'20]. 
 * Paper accepted in ICCV19w on Learning for Computational Imaging [Nov'19]. 
 * [Paper](https://awaisrauf.github.io/election_prediction) accepted in Springer's Journal [JAIHC](https://www.springer.com/engineering/computational+intelligence+and+complexity/journal/12652) [Jan'19].  
 * [Paper](https://awaisrauf.github.io/xray-denoising) accepted in NIPS 2018 workshop ML4H [Nov'18]
