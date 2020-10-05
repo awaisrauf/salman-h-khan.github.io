@@ -10,7 +10,7 @@ I am an Assistant Researcher at AI Theory Group, [Noah's Ark Lab,](http://www.no
 
 
 # News!
-* Our paper accepted in [IEEE Transactions on Neural Networks and Learning Systems](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems) (IF=12.18) [Sep'20].
+* Our paper accepted in [IEEE Transactions on Neural Networks and Learning Systems (TNNLS)](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems) (IF=12.18) [Sep'20].
 * I was invited by Dr. [Cihang Xie](https://cihangxie.github.io/) to review Workshop on [Adversarial Robustness in the Real World](https://eccv20-adv-workshop.github.io/) in [ECCV](https://eccv2020.eu/) 2020. [July'20]
 * I have Joined Huawei's Noah's Ark Research Lab as Assistant Researcher [Jan'20]. 
 * Paper accepted in ICCV19w on Learning for Computational Imaging [Nov'19]. 
